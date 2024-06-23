@@ -132,44 +132,44 @@ SCENE tut_shield
 El escudo de Aliph se puede apuntar hacia arriba,\nabajo, a la izquierda o derecha usando los\ncontroles de movimiento de Aliph. Por ejemplo,\nmoviendo hacia la derecha se moverá también\nel escudo hacia la derecha.
 Intenta mover el escudo en diferentes\ndirecciones para ver cómo se siente.
 INTRUCCIONES: EL ESCUDO
-Si quieres protegerte en una dirección\nindependientemente de tu movimiento, puedes usar\nla habilidad de bloqueo del escudo: mantén\npresionado el {CONFIRM_KEY} para bloquear tu escudo en su orientación actual.
-1. Posicion
-2.Bloquear!
-3.Mover de otra menera.
+Si quieres protegerte en una dirección\nindependientemente de tu movimiento, puedes\nusarla habilidad de bloqueo del escudo:\nmantén presionado el {CONFIRM_KEY}\npara bloquear tu escudo en su orientación actual.
+1.Posiciona
+2.Bloquea
+3.Muevete al otro lado
 ¡Tu escudo no cambiará de dirección hasta\nque sueltes el {CONFIRM_KEY}!
 ENDSCENE
 
 SCENE tut_en
 Esta barra representa la cantidad\nde energia blanca u oscura de Aliph.
 Cuando Aliph toque un objeto cargado como\nestos, su energía se verá afectada:
-Salida de ventilación de luz
-Capullo de planta de luz oscura
+Escape de ventilación de luz
+Capullos de luz oscura
 INSTRUCIONES DEL SISTEMA DE ENERGIA
-Aliph, cuanto más cantidad de energía oscura más rápido se moverá horizontalmente. ¡Cuanto más cantidad de energía blanca más alto podrá saltar!
+Aliph, cuanto más cantidad de energía\noscura más rápido se moverá horizontalmente.\n¡Cuanto más cantidad de energía blanca\nmás alto podrá saltar!
 Energia oscura
 Energia Blanca
-Es seguro y a menudo inevitable que la barra\nde energía de Aliph cambie mientras ella trabaja …\Pero si la barra se llena completamente con\ncualquier energía, ¡son problemas para Aliph!
-Deberá volver a comenzar desde el punto de guardado:
+Es seguro y a menudo inevitable que la barra\nde energía de Aliph cambie mientras ella trabaja …\nPero si la barra se llena completamente con\ncualquier energía, ¡son problemas para Aliph!
+Comenzaras en el último punto de guardado:
 ENDSCENE
 
 SCENE tut_wallclimb
-Cuando Aliph salte hacia una pared y la toque,\ncomenzará a deslizarse a lo largo de la pared.
-(Si no se sujeta a la pared, se caerá al suelo)
+Cuando Aliph salte hacia una\npared y la toque, comenzará a\ndeslizarse a lo largo de\nla pared.
+(Si no se sujeta a la pared, se caerá\nal suelo)
 INSTRUCCIONES: ESCALAR PAREDES
-¡Desde esta posición en la pared, Aliph puede\nsubir hacia arriba al continuar presionando\ncontra la pared y saltando repetidamente!
+¡Desde esta posición en la pared,\nAliph puede subir hacia arriba al\ncontinuar presionando contra la\npared y saltando repetidamente!
 ENDSCENE
 
 SCENE tut_walljump
 ¡Desde esta posición en la pared,\nAliph también puede saltar de la pared,\na una pared o plataforma diferente!
-Para hacer esto, Aliph debe comenzar\na alejarse de la pared\nal mismo tiempo que salta.
+Para hacer esto,\nAliph debe comenzar\na alejarse de la\npared al mismo\ntiempo que salta.
 INSTRUCCIONES: SALTO DE PARED
-Saltar de las paredes puede parecer complicado\nal principio, pero pronto se convertirá\nen algo natural, como mantener presionada\nla tecla MAYÚS para escribir una letra mayúscula.\n¡Pronto podrás usar la escalada de pared\ny el salto de pared para moverte por un\nterreno complejo con facilidad!
+Saltar de las paredes puede\nparecer complicado al\nprincipio, pero pronto se\nconvertirá en algo natural,\ncomo mantener presionada la\ntecla MAYÚS para escribir\nuna letra mayúscula.\n¡Pronto usaras la escalada\ny el salto de pared para\nmoverte con facilidad!
 ENDSCENE
 
 SCENE tut_worldmap
-Aliph puede viajar a nuevas áreas cruzando\nel mundo. Camina hacia un área y\ncuando aparezca su nombre, presiona {CONFIRM_KEY}.
+Aliph puede viajar a nuevas áreas\ncruzando el mundo. Camina hacia un\nárea y cuando aparezca su nombre,\npresiona {CONFIRM_KEY}.
 INSTRUCCIONES: EL MAPA
-Pulse {CONFIRM_KEY} para investigar y abrir lugares ocultos.\nCuando se abre, aparece el nombre del lugar y podrás entrar.\nTambién puede investigar algunos objetos y interactuar con ellos.
+Pulse {CONFIRM_KEY} para investigar\ny abrir lugares ocultos. Cuando se abre,\naparece el nombre del lugar y podrás entrar.\nTambién puede investigar\nalgunos objetos e\ninteractuar con ellos.
 ENDSCENE
 
 SCENE tut_usemap
@@ -224,7 +224,7 @@ IGNORE
 %%pic%Cloaked_Humus%%%%speaker%none%%Aquí nos encontraremos con Aliph, un técnico de la planta de energía recién contratado que ha sido enviado a la Planta Fay Rouge para el mantenimiento de rutinario junto con el técnico superior, Cassidy ...
 // <Fade to black>...
 // 13
-%%speaker%none%%%%yn%No% -1% Sí% 14 %% ¿Utiliza estas configuraciones? Mantenga presionado el botón {CONFIRM_KEY} para seleccionar.
+%%speaker%none%%%%yn%No%-1%Sí%14%%¿Utiliza estas configuraciones? Mantenga presionado el botón {CONFIRM_KEY} para seleccionar.
 // If no, goes back to settings menu. If yes, plays next line then returns to line 5.
 %%speaker%none%%Puede modificar estas opciones en cualquier momento desde Menú> Configuración, y durnte el juego, puedes acceder al Menú pulsando {PAUSE_KEY}.
 ENDSCENE
@@ -283,7 +283,7 @@ ENDSCENE
 // Aliph reaches a bridge that was hit by lightning. Cassidy fell off the bridge and is injured below, being electrocuted by some safety wire
 SCENE earthquake
 %%pic%Cassidy%%ALIPH!
-%%pic%Cassidy%%G{WAIT,0.1}E{WAIT,0.1}T...O{WAIT,0.1}F{WAIT,0.1}F...THE{WAIT,0.1} BRI{WAIT,0.1}DGE...!!
+%%pic%Cassidy%%QUI{WAIT,0.1}TA{WAIT,0.1}TE...D{WAIT,0.1}E{WAIT,0.1}L...PU{WAIT,0.1}EN{WAIT,0.1}TE...!!
 // Lightning strikes again, screen blacks out. Goes to SCENE cave
 ENDSCENE
 
@@ -330,15 +330,15 @@ ENDSCENE
 SCENE cave_tut
 !i %%pic%Cloaked_Humus%%%%speaker%none%%¡Sin la protección de su traje de trabajo, Aliph es vulnerable a peligros que pueden afectar a los niveles de energía de su cuerpo!
 %%pic%Cloaked_Humus%%%%speaker%none%%¡Ten cuidado, ya que las plantasde energia que están adelante no pueden ser absorbidas por tu escudo! Si alguna vez necesitas información adicional sobre un peligro al que te enfrentas, consulta las Notas de campo en la sección Diario del menú.
-%%yn%Sí% -1% No% -1 %% {N0}, ¿quieres ver las instrucciones de 'Niveles de energía'?
-%%pic%Cloaked_Humus%%%%speaker%none%%La destrucción de la pesada armadura , sin embargo, también le permite a Aliph más libertad y movilidad. Sin ella es capaz de escalar hábilmente las paredes de la cueva como cuando eran joven para acceder a la planta eléctrica de Fay Roug.
-%%yn%Sí% -1% No% -1 %% {N0}, ¿Te gustaría ver las instrucciones para 'Escalar paredes'?
+%%yn%Sí%-1% No%-1%% {N0}, ¿quieres ver las instrucciones de 'Niveles de energía'?
+%%pic%Cloaked_Humus%%%%speaker%none%%La destrucción de la pesada armadura, sin embargo, también le permite a Aliph más libertad y movilidad. Sin ella es capaz de escalar hábilmente las paredes de la cueva como cuando eran joven para acceder a la planta eléctrica de Fay Roug.
+%%yn%Sí%-1% No%-1%% {N0}, ¿Te gustaría ver las instrucciones para 'Escalar paredes'?
 ENDSCENE
 
 // more tutorials taht trigger at various points in the tutorial level
 SCENE cave_tut_2
 %%pic%Cloaked_Humus%%%%speaker%none%%Aliph, no solo puede escalar paredes sino que también puede saltar de una pared a otra.
-%%yn%Sí% -1% No% -1 %% {N0} ¿Te gustaría ver las instrucciones para 'Salto de pared'?
+%%yn%Sí%-1% No%-1%% {N0} ¿Te gustaría ver las instrucciones para 'Salto de pared'?
 %%pic%Cloaked_Humus%%%%speaker%none%%Puede saltar a través de superficies delgadas como repisas y posarse encima de ellas. También puede saltar hacia abajo pulsando {DOWN_KEY} {BTNKEY} y presionando {JUMP_KEY}.
 ENDSCENE
 
@@ -367,7 +367,7 @@ IGNORE
 IGNORE
 IGNORE
 //Interact with dispenser
-%%aliph%%%%yn%Horizontal% -1% Vertical% -1% Rotacional% -1% No importa% -1 %% Parece que debería elegir un tipo de lente de cristal ...
+%%aliph%%%%yn%Horizontal%-1% Vertical%-1% Rotacional%-1% No importa%-1%% Parece que debería elegir un tipo de lente de cristal ...
 // Repair the first dispenser
 %%aliph%%Bueno, uno menos….
 ENDSCENE
@@ -457,7 +457,7 @@ SCENE misc
 %%aliph%% %%speaker%none%%S-algo acerca de esta enorme estatua me da escalofríos. Esto ... esto no tiene nada que ver con mi misión. Será mejor que me vaya.
 !i %%aliph%% %%speaker%none%%Hay algo acerca de esta estatua ... * toca la estatua * Whoa ... ¡está ardiendo! Wh-whoa ...! ¡Algún tipo de fuerza extraña me está atrayendo ...!
 %%set_state%2%1%% %%speaker%none%%De aquí en adelante hay contenido secreto ... ¡asegúrate de usar la función Post-end Warp del Menú si alguna vez te quedas atascado!
-%%speaker%none%% %%yn%Ver Mapa de Viejo Océano% -1% ¿Qué significan los números?% 17%Explicación del mapa% 18% No importa% -1 %% INFORMACIÓN KIOSK
+%%speaker%none%% %%yn%Ver Mapa de Viejo Océano%-1%¿Qué significan los números?%17%Explicación del mapa%18% No importa%-1%% INFORMACIÓN KIOSK
 %%speaker%none%%0 = Entrada al Ecéano Antiguo.\n1 = Acto 1 (Introducción al Bosque de Piedras)\n2 = Acto 2 (Reparar 3 Planta de energía)\n3 = Acto 3 (Reparar 3 Más Planta de energía)\n4 = Explora los Golems\n5 = Visita los confines de la tierra\n6 = Volver al inicio
 %%speaker%none%%Este es un mapa del Océano Antiguo, la mitad de la original, antigua, version de Even the Ocean, que se dividió en cinco actos y un final Si lo desea, puede seguir su progreso a través del Océano Antiguo en el orden original previsto.
 ENDSCENE
@@ -593,13 +593,13 @@ ENDSCENE
 SCENE funeral_lopez
 %%pic%Lopez%% %%speaker%g%2%% %%im%%Da miedo, ¿sí? Podría habernos sucedido a cualquiera de nosotros. Especialmente podría haberte sucedido a ti, Aliph. Cassidy era una muy buena técnica, ¿sabes?
 LOOPSTART
-%%pic%Lopez%% %%speaker%g%2%%Parece que el mundo se está volviendo más y más peligroso. Podría ser solo mi imaginación, ¿sabes? Pero parece que ...
+%%pic%Lopez%% %%speaker%g%2%%Parece que el mundo se está volviendo más y más peligroso. Podría ser solo mi imaginación, ¿sabes? Pero así parece...
 ENDSCENE
 
 SCENE funeral_paxton
 %%pic%Paxton%% %%speaker%g%1%% %%im%%Es una pena. Realmente lo es. Siempre pensé que Cassidy se estaba presionando demasiado. No pensé que terminaría de esta manera.
 %%aliph%% %%im%%Cassidy no hizo nada malo. Nadie podría haberlo visto venir.
-%%pic%Paxton%% %%speaker%g%1%% %%im%%Sí, sí, por supuesto, tienes razón. ¿Sin embar, Rviste realmente los que ocurrió?
+%%pic%Paxton%% %%speaker%g%1%% %%im%%Sí, sí, por supuesto, tienes razón. ¿Sin embargo, viste realmente lo que ocurrió?
 %%aliph%% %%im%%Bueno…
 LOOPSTART
 %%pic%Paxton%% %%speaker%g%1%%Todo el mundo comete errores, es todo lo que tengo que decir.
@@ -612,7 +612,7 @@ SCENE funeral_official
 %%aliph%% %%im%%Oh! ¿El alcalde? Quiere verme? ¿Por qué?
 %%speaker%g%3%% %%pic%Hastings%% %%im%%Asuntos del gobierno
 LOOPSTART
-%%speaker%g%3%% %%pic%Hastings%% %%yn%(Todavía no ...)% 6% Sí% 5: s1: city, funeral_casket %% ¿Estás listo para ir?
+%%speaker%g%3%% %%pic%Hastings%% %%yn%(Todavía no ...)%6%Sí%5:s1:city,funeral_casket%%¿Estás listo para ir?
 %%speaker%g%3%% %%pic%Hastings%%De acuerdo, sígueme.
 //<if you've NOT been to Cassidy's casket already>
 %%im%% %%aliph%%N-no ... quiero presentar mis respetos a Cassidy.
@@ -633,7 +633,7 @@ SCENE funeral_casket
 %%im%% %%pic%Yara%% %%speaker%g%0%%Hola.
 %%im%% %%pic%Yara%% %%speaker%g%0%%Um. Aliph, ¿verdad?
 %%im%% %%aliph%%Sí ... ¿eres Yara? Ese fue un hermoso discurso ... sobre Cassidy.
-%%im%% %%pic%Yara%% %%speaker%g%0%%Elpleno de la ciudad te está esperando, ¿verdad? Será mejor que te vayas.
+%%im%% %%pic%Yara%% %%speaker%g%0%%El pleno de la ciudad te está esperando, ¿verdad? Será mejor que te vayas.
 %%aliph%%¿Huh? Oh. Sí ... Será mejor que me vaya.
 // 9, <ALIPH starts off>
 %%aliph%% %%im%%Yo-lo siento por tu pérdida.
@@ -667,17 +667,17 @@ SCENE mayor_intro
 %%pic%Biggs%% %%speaker%none%%... aquí está Dreamdram Canyon ...
 %%pic%Biggs%% %%speaker%none%%... y esto es Boreas Heights.
 // 18
-!i %%speaker%none%% %%pic%Biggs%%Después de tu espectacular actuación en Fay Rouge, Aliph, tengo muchas esperanzas puestas en ti. Siéntase libre de elegir una de estas plantas de energía para ir. Si no está seguro de dónde ir primero, la planta de energía de Restview Beach es actualmente la más estable de las tres, y por lo tanto, menos peligrosa. De todos modos, donde sea que decidas ir , enviaremos otros técnicos a las otras áreas.
+!i %%speaker%none%% %%pic%Biggs%%Después de tu espectacular actuación en Fay Rouge, Aliph, tengo muchas esperanzas puestas en ti. Siéntase libre de elegir una de estas plantas de energía para ir. Si no está seguro de dónde ir primero, la planta de energía de Restview Beach es actualmente la más estable de las tres, y por lo tanto, menos peligrosa. De todos modos, donde sea que decidas ir, enviaremos otros técnicos a las otras áreas.
 // fade out map (19)
 %%speaker%none%% %%aliph%% %%im%%Oh, ¿técnicos Lopez y Paxton?
 %%speaker%none%% %%pic%Biggs%% %%im%%¿Hm? Oh sí, ellos. Ahora Aliph. Tu objetivo principal es, por supuesto, arreglar las plantas. Necesitamos un suministro constante de energía de Luz para mantener la infraestructura completa de la ciudad funcionando sin problemas.
 %%speaker%none%% %%pic%Biggs%% %%im%%Pero, también esté atento a cualquier cosa que parezca extraña o inusual que pueda estar relacionada con el mal funcionamiento. Como ya he dicho, nada como esto ha sucedido antes ... ¡cualquier pista que pueda proporcionar ayudará a nuestros expertos a descubrir qué está pasando aquí!
 %%speaker%none%% %%aliph%% %%im%%Sí, por supuesto. Estaré atento.
-%%speaker%none%% %%pic%Biggs%% %%im%%Bien bien. Tendrá el resto del fin de semana libre, por supuesto, ¡necesita descansar! No se preocupe por la ciudad, tenemos otras 3 plantas que funcionan perfectamente y que proporcionan energía por ahora.sin embargo, vuelve al Lighthouse el lunes y te conseguiremos un nuevo traje de energía.
+%%speaker%none%% %%pic%Biggs%% %%im%%Bien bien. Tendrá el resto del fin de semana libre, por supuesto, ¡necesita descansar! No se preocupe por la ciudad, tenemos otras 3 plantas que funcionan perfectamente y que proporcionan energía por ahora. Sin embargo, vuelve al Lighthouse el lunes y te conseguiremos un nuevo traje de energía.
 %%speaker%none%% %%aliph%% %%im%%Si señor.
 %%speaker%none%% %%pic%Biggs%% %%im%%Ha sido un verdadero placer. {WAIT, 0.3} Ah, y Aliph ...
 %%speaker%none%% %%aliph%% %%im%%¿Si?
-%%speaker%none%%  %%pic%Biggs%% %%im%%Mantén esto para ti, ¿De acuerdo? Algunos ciudadanos pueden encontrar esta noticia ... {WAIT, 0.3} alarmante, a pesar de que, como dije, tenemos muchasPlantas de Energía completamente funcionales que mantienen nuestra ciudad a flote. No querría causar ningún pánico innecesario, ¿verdad?
+%%speaker%none%%  %%pic%Biggs%% %%im%%Mantén esto para ti, ¿De acuerdo? Algunos ciudadanos pueden encontrar esta noticia ... {WAIT, 0.3} alarmante, a pesar de que, como dije, tenemos muchas Plantas de Energía completamente funcionales que mantienen nuestra ciudad a flote. No querría causar ningún pánico innecesario, ¿verdad?
 %%speaker%none%% %%aliph%% %%im%%Oh, si por supuesto.
 %%speaker%none%%  %%pic%Biggs%% %%im%%A ellol! ¡Cuento contigo Aliph! ¡Te veo pronto!
 %%speaker%none%% %%aliph%%Sí ... hasta luego.
@@ -701,7 +701,7 @@ ENDSCENE
 /* */
 
 SCENE gov_lobby
-%%aliph%% %%speaker%none%% %%yn%Para irse% -1% Ala histórica% -1% Oficina del alcalde% -1 %% Esta es la sala de Lighthouse.
+%%aliph%% %%speaker%none%% %%yn%Para irse%-1% Ala histórica%-1% Oficina del alcalde%-1%% Esta es la sala de Lighthouse.
 %%aliph%% %%speaker%none%%No se puede entrar. El cartel dice que el ala de la historia está se esta renovando en este momento.
 ENDSCENE
 
@@ -781,7 +781,7 @@ SCENE intro_armor
 %%speaker%none%% %%pic%Snickwad%% %%im%%Eh… puede se positivo, Sr. Alcalde?
 %%speaker%none%% %%pic%Biggs%% %%im%%Ahora imagine: ¡"Shield Avenger Aliph" irrumpe en las plantas de energía para salvar a Whiteforge! Esa es una imagen bastante heroica, ¿no? ¡Tal vez levantaria la moral por aquí!
 %%speaker%none%% %%pic%Snickwad%% %%im%%Solo si "Shield Avenger Aliph" se mantiene vivo.
-%%speaker%none%% %%pic%Biggs%% %%im%%Escucha, Doc ... necesitamos a alguien valiente, alguien dispuesto a probar cosas que nadie más ha hecho, para cumplir con ... Gran interés de Whiteforge. ¡Aliph parece ser nuestro candidato!
+%%speaker%none%% %%pic%Biggs%% %%im%%Escucha, Doc ... necesitamos a alguien valiente, alguien dispuesto a probar cosas que nadie más ha hecho, para cumplir con el... Gran interés de Whiteforge. ¡Aliph parece ser nuestro candidato!
 //<alluding to the fact that they're aware of the possibility of the Geomes. Believe the Geomes to somehow bring about the end of the earth, so they are sort of grooming aliph to take them on.>
 %%speaker%none%% %%pic%Snickwad%% %%im%%Bien. Es su decisión, Alcalde Biggs. Pero que se sepa que el daño a los trajes de los agentes 18C y 03A en Fay Rouge se produjo solo debido a eventos astronómicamente improbables junto con el hecho de que llevaban el modelo del año pasado de la armadura protectora Forgetech. El modelo de este año ha abordado específicamente los problemas conjuntos del último modelo en base a nuestros extensos procedimientos de prueba de seguridad.
 %%speaker%none%% %%aliph%% %%im%%Créame, ¡no es personal! Yo solo ... No puedo usar ese traje.
@@ -812,7 +812,7 @@ SCENE intro_yara
 %%pic%Yara%% %%speaker%g%0%% %%im%%...
 //<yara looks down>
 %%pic%Yara%% %%speaker%g%0%% %%im%%Lamento que te haya impedido hablar de Cassidy en el funeral y lamento haber sido frío contigo. Probablemente tampoco todo esto sea fácil para ti.
-%%pic%Yara%% %%speaker%g%0%% %%im%%Pienso que tal vez podríamos ser amigos. Esto es muy difícil de procesar en este momento. Y tal vez ahora me odias y no quieres ser amiga, lo cual entendería totalmente. Yo solo ... no quería dejarte ir sin decir nada, por si acaso, bueno ...
+%%pic%Yara%% %%speaker%g%0%% %%im%%Pienso que tal vez podríamos ser amigos. Esto es muy difícil de procesar en este momento. Y tal vez ahora me odias y no quieres ser mi amiga, lo cual entendería totalmente. Yo solo ... no quería dejarte ir sin decir nada, por si acaso, bueno ...
 %%pic%Yara%% %%speaker%g%0%% %%im%%Vas a ir a otra misión y, ya sabes, cualquier cosa puede suceder. Yo solo ... sé que quiero que vuelvas sana y salva, ¿está bien?
 %%aliph%% %%im%%...
 !i %%aliph%%¡Voy a! Volveré, ok? Gracias, Yara.
@@ -838,7 +838,7 @@ ENDSCENE
 
 
 SCENE screen_test
-%%aliph%% %%speaker%none%% %%yn%Deja% -1% Mira% -1% Ir a limpiar% -1 %% (Está oscuro aquí ... tal vez debería irme).
+%%aliph%% %%speaker%none%% %%yn%Deja%-1% Mira%-1% Ir a limpiar%-1%% (Está oscuro aquí ... tal vez debería irme).
 !i %%aliph%% %%speaker%none%%¿Hola? ¿Hay alguien?
 !i %%pic%Cloaked_Humus%% %%speaker%none%%Hola. Aliph!
 %%aliph%% %%speaker%none%%Whoa! ¿De dónde vienes?
@@ -871,7 +871,7 @@ SCENE wf_j_intro
 // !i %%pic%Roots%%Or if you're an old pro, you can try your hand at some of our Xtreme Time Trial Courses, and see how you stack up against our best times!
 !i %%pic%Roots%%¿Entendiste eso? Si está nervioso por las tareas que tiene por delante, tome la línea de tierra hasta el desguace y nosotros nos ocuparemos de usted, ¿de acuerdo? Está bien.
 %%aliph%%Oh ... genial! Gracias, Yuca. Intentaré pasar por aquí.
-//Repeated , Roots disappears after you enter/leave screen 6
+//Repeated, Roots disappears after you enter/leave screen 6
 %%pic%Roots%%Todo lo que tienes que hacer es tomar la línea de tierra hasta el desguace y te cuidaremos, ¿de acuerdo? Bueno.
 ENDSCENE
 
@@ -884,7 +884,7 @@ SCENE wf_j
 !i %%pic%Roots%%Y esa es mi hermana pequeña, Pollen. Polen es la decoradora principal ... Ella hace todas las cadenas de margaritas. Y ella nos trae helado, jejeje.
 !i %%speaker%g%2%% %%pic%Pollen%%...
 %%pic%Roots%%De todos modos, hay tres cursos de práctica que puedes visitar. ¡Solo dígame adónde quiere ir!
-%%yn%Curso de Restview% -1% Curso de Dreamdram% -1% Curso de Boreas% -1% No importa% -1 %% %% pic% Volver %% Entonces ... ¿dónde quieres ir?
+%%yn%Curso de Restview%-1%Curso de Dreamdram%-1%Curso de Boreas%-1%No importa%-1%% %%pic%Roots%%Entonces... ¿dónde quieres ir?
 // 9
 %%speaker%g%0%% %%pic%Trunks%%Espero que te diviertas. Fue muy divertido ... hacer los cursos. Sí...
 %%speaker%g%1%% %%pic%Dahlia%%Hola, Aliph! ¿Entonces también visitas las plantas de energía? ¡Qué bueno!
@@ -931,27 +931,27 @@ SCENE wf_jh
 ENDSCENE
 
 SCENE museum_intro
-%%yn%Ir% -1% Mirar alrededor% -1% Ir de visita% -1% Ver personas% -1 %% %% aliph %% %% altavoz% nada %% El Instituto de Arte de Whiteforge. El museo más grande de Whiteforge, y también una universidad.
+%%yn%Ir%-1% Mirar alrededor%-1% Ir de visita%-1% Ver personas%-1%% %% aliph %% %% altavoz% nada %% El Instituto de Arte de Whiteforge. El museo más grande de Whiteforge, y también una universidad.
 %%aliph%% %%speaker%none%%Hoy se ve bastante tranquilo. Hay un mostrador de billetes allí, y ... hay una entrada principal a las galerías normales, y una habitación cerrada que está siendo renovada para una próxima exposición.
 %%aliph%% %%speaker%none%%Parece que la nueva exposición está lista. Puedo inscribirme en el servicio de atención al cliente para una visita.
 ENDSCENE
 
 SCENE museum_gossip
 !i %%name%Alguien%% %%speaker%none%%Oh, ¿te lo dije? Me enteré hoy ... Bradley ... ¡hace cinco años falsificó el 'doctorado' en sus tarjetas de visita!
-!i %%name%Alguien más%% %%speaker%none%% ¿Qué? De Verdad? Sabes ... eso no me sorprende. Hombre, ese tipo es un directivo problematico. Todos los internos huyen de él. No entiendo por qué todavía está aquí…
-%%name%Alguien %% %% speaker% none none% Yo tampoco ...
+!i %%name%Alguien más%% %%speaker%none%%¿Qué? De Verdad? Sabes ... eso no me sorprende. Hombre, ese tipo es un directivo problematico. Todos los internos huyen de él. No entiendo por qué todavía está aquí…
+%%name%Alguien%% %%speaker%none%%Yo tampoco ...
 ENDSCENE
 
 SCENE museum_violet_1
 !i %%skip_if%s%1%0%*%*%2%% %%aliph%% %%speaker%none%%No parece que haya nadie alrededor para dar una vuelta.
-%%pic%Cloaked_Humus%% %%speaker%none%% %%yn%No% -1% Sí% 2 %% ¿Ver nuevamente la conversación de Aliph y Violet?
+%%pic%Cloaked_Humus%% %%speaker%none%% %%yn%No%-1%Sí%2%%¿Ver nuevamente la conversación de Aliph y Violet?
 !i %%set_state%1%1%% %%speaker%none%% %%pic%Cloaked_Humus%%Aliph esperó a que comenzara la visita ...
 !i %%speaker%none%% %%pic%Violet%%Hola, um, ¿estás aquí para la visita?
 !i %%speaker%none%% %%aliph%%Sí, ¿Empezará pronto?
 !i %%speaker%none%% %%pic%Violet%%Sí, se supone. Pero ... en realidad es ... política del museo no puedo empezar a menos que haya cinco personas.
 !i %%speaker%none%% %%aliph%%Oh, ¿la visita se cancela?
 !i %%speaker%none%% %%pic%Violet%%Sí, lo siento mucho! Tengo que hacerlo, es solo política. El museo, es ... bueno, estamos ocupados preparándonos para una próxima exposición ... y -
-!i %%speaker%none%% %%aliph%%Ah, no te preocupes! ¡Está bien! Estoy bien daré una vuelta yo solo. Estoy seguro de que las cosasestán bastante ocupadas por aquí.
+!i %%speaker%none%% %%aliph%%Ah, no te preocupes! ¡Está bien! Estoy bien daré una vuelta yo solo. Estoy seguro de que las cosas están bastante ocupadas por aquí.
 !i %%speaker%none%% %%pic%Violet%%Oh, está bien, genial, gracias! Sé que es una pena, pero ... ¡Vuelva por aquí una vez que se abra la exposición! Estaré encantado de hacerle una visita. ¡O regrese en otro momento para una visita general!
 !i %%speaker%none%% %%aliph%%Entonces, ¿eres un guía turístico?
 !i %%speaker%none%% %%pic%Violet%%Solo por algunas semanas. De hecho, soy el comisario de la exposición y, aparte de eso, investigo sobre el arte del período de construcción del distrito de Apex.
@@ -963,7 +963,7 @@ ENDSCENE
 
 SCENE museum_violet_2
 !i %%skip_if%s%1%0%*%*%2%% %%aliph%% %%speaker%none%%Ya fui de visita.
-%%pic%Cloaked_Humus%% %%speaker%none%% %%yn%No% -1% Sí% 2 %% ¿Ver nuevamente la conversación de Aliph y Violet?
+%%pic%Cloaked_Humus%% %%speaker%none%% %%yn%No%-1%Sí%2%%¿Ver nuevamente la conversación de Aliph y Violet?
 !i %%set_state%1%1%% %%speaker%none%% %%pic%Violet%%¡Hola a todos! La visita es ... a partir de ahora.
 !i %%speaker%none%% %%pic%Violet%%Por lo tanto, esta exposición especial está dedicada a un grupo de fotógrafos de vanguardia llamado "RECHAZO", que trabajaron juntos durante la construcción del Apex District ...
 !i %%speaker%none%% %%pic%Violet%%... el grupo se creo tras participar en varias protestas sociales y reuniones cerca del sitio de construcción ...
@@ -987,13 +987,13 @@ ENDSCENE
 SCENE lib_intro
 %%aliph%% %%speaker%none%%La biblioteca está cerrada ahora. Estará abierta en unos días.
 %%aliph%% %%speaker%none%%%%yn%Ir%-1%Hablar con bibliotecario%-1%Mirar libros%-1:s1:city, lib_talk_g1_1_first%Caja de donaciones%-1:s1:city,lib_talk_g2_1%%Es la biblioteca local...
-%%aliph%% %%speaker%none%%%%yn%No importa%-1%Restview Beach%-1: e9%Dreamdram Canyon%-1:e12%Boreas Heights%-1:e13%Riverton%-1: e15%Magdal Woods%-1:e14%Oscar Basin%-1:e16 %% Son aquellas guías de viaje ... ¿cuál debería leer?
+%%aliph%% %%speaker%none%%%%yn%No importa%-1%Restview Beach%-1: e9%Dreamdram Canyon%-1:e12%Boreas Heights%-1:e13%Riverton%-1: e15%Magdal Woods%-1:e14%Oscar Basin%-1:e16%%Son aquellas guías de viaje ... ¿cuál debería leer?
 ENDSCENE
 
 
 SCENE lib_talk_g1_1_first
 !i %%skip_if%s%1%0%*%*%2%% %%aliph%% %%speaker%none%%Nate parece ocupado. Tal vez debería mirar algunos libros.
-%%pic%Cloaked_Humus%% %%speaker%none%% %%yn%No% -1% Sí% 2 %% ¿Ver nuevamente la conversación de Aliph y Nate?
+%%pic%Cloaked_Humus%% %%speaker%none%% %%yn%No%-1%Sí%2%%¿Ver nuevamente la conversación de Aliph y Nate?
 !i %%pic%Aliph%% %%speaker%none%%Hola, um ... me preguntaba si tienes alguna recomendación.
 !i %%pic%Nate%% %%speaker%none%%¿Recomendaciones? ¡Sí! Veamos ... ¿te gustan, eh … los libros de historia?
 !i %%pic%Aliph%% %%speaker%none%%Ah, ¿tal vez? Depende No me desagrada la historia, je.
@@ -1014,7 +1014,7 @@ ENDSCENE
 
 SCENE lib_talk_g1_2
 !i %%skip_if%s%1%0%*%*%2%% %%aliph%% %%speaker%none%%Nate parece ocupado. Tal vez debería mirar algunos libros.
-%%pic%Cloaked_Humus%% %%speaker%none%% %%yn%No% -1% Sí% 2 %% ¿Ver nuevamente la conversación de Aliph y Nate?
+%%pic%Cloaked_Humus%% %%speaker%none%% %%yn%No%-1%Sí%2%%¿Ver nuevamente la conversación de Aliph y Nate?
 !i %%aliph%% %%speaker%none%%Oh hola, Nate. ¿Que pasa?
 !i %%pic%Nate%% %%speaker%none%%Solo estoy ordenando algunos libros.
 !i %%aliph%% %%speaker%none%%¿Son devoluciones?
@@ -1030,7 +1030,7 @@ ENDSCENE
 
 SCENE lib_talk_g1_3
 !i %%skip_if%s%1%0%*%*%2%% %%aliph%% %%speaker%none%%Nate parece ocupado. Tal vez debería mirar algunos libros.
-%%pic%Cloaked_Humus%% %%speaker%none%% %%yn%No% -1% Sí% 2 %% ¿Ver nuevamente la conversación de Aliph y Nate?
+%%pic%Cloaked_Humus%% %%speaker%none%% %%yn%No%-1%Sí%2%%¿Ver nuevamente la conversación de Aliph y Nate?
 !i %%aliph%% %%speaker%none%%Hola, Nate.
 !i %%pic%Nate%% %%speaker%none%%Oh hola, Aliph. ¿Verificando algo hoy?
 !i %%aliph%% %%speaker%none%%Aún no. Solo estoy mirando alrededor. ¿Ocupado hoy?
@@ -1047,7 +1047,7 @@ ENDSCENE
 
 SCENE lib_talk_g2_1
 !i %%skip_if%s%1%0%*%*%2%% %%aliph%% %%speaker%none%%Nate parece ocupado. Tal vez debería mirar algunos libros.
-%%pic%Cloaked_Humus%% %%speaker%none%% %%yn%No% -1% Sí% 2 %% ¿Ver nuevamente la conversación de Aliph y Nate?
+%%pic%Cloaked_Humus%% %%speaker%none%% %%yn%No%-1%Sí%2%%¿Ver nuevamente la conversación de Aliph y Nate?
 !i %%aliph%% %%speaker%none%%Ah, hla, he cambiado de dirección, y quería actualizar mi tarjeta ... ¿puedes hacerlo aquí?
 !i %%pic%Nate%% %%speaker%none%%Claro, ¿puedes completar estos formularios? Solo tardará un segundo.
 !i %%aliph%% %%speaker%none%%Bien, seguro.
@@ -1069,7 +1069,7 @@ ENDSCENE
 
 SCENE lib_talk_g2_2
 !i %%skip_if%s%1%0%*%*%2%% %%aliph%% %%speaker%none%%Nate parece ocupado. Tal vez debería mirar algunos libros.
-%%pic%Cloaked_Humus%% %%speaker%none%% %%yn%No% -1% Sí% 2 %% ¿Ver nuevamente la conversación de Aliph y Nate?
+%%pic%Cloaked_Humus%% %%speaker%none%% %%yn%No%-1%Sí%2%%¿Ver nuevamente la conversación de Aliph y Nate?
 !i %%aliph%% %%speaker%none%%Hola, Nate! Me estaba preguntando ... ¿qué están haciendo esas personas allí? No quería interrumpirlos, y ...
 !i %%pic%Nate%% %%speaker%none%%Oh, ellos? Es un club de lectura. Creo que es un grupo de personas de algún tipo de empresa de informática. Vienen todos los meses.
 !i %%aliph%% %%speaker%none%%Oh bien ... eso es lo que yo pensaba.
@@ -1082,7 +1082,7 @@ ENDSCENE
 
 SCENE lib_talk_g2_3
 !i %%skip_if%s%1%0%*%*%2%% %%aliph%% %%speaker%none%%Nate parece ocupado. Tal vez debería mirar algunos libros.
-%%pic%Cloaked_Humus%% %%speaker%none%% %%yn%No% -1% Sí% 2 %% ¿Ver nuevamente la conversación de Aliph y Nate?
+%%pic%Cloaked_Humus%% %%speaker%none%% %%yn%No%-1%Sí%2%%¿Ver nuevamente la conversación de Aliph y Nate?
 !i %%pic%Nate%% %%speaker%none%%Hola, Aliph.
 !i %%pic%Nate%% %%speaker%none%%¿Qué esta ocurriendo allá arriba en Apex?
 !i %%aliph%% %%speaker%none%%Sí. Bueno, ya sabes. Trabajo.
@@ -1125,19 +1125,19 @@ SCENE train_hi_choice
 ENDSCENE
 
 SCENE lib_books
-Restview Beach\n\n Esta planta de energía se encuentra cerca del Restview Beach Resort. Originalmente, la zona era conocida por ser un popular pueblo de pescadores. Después de un tiempo, los investigadores notaron que el área tenía las condiciones ideales para una nueva Planta de Energía.\n\n Pocos años después de la construcción, gracias a la nueva fuente de Light Energy, se formó la Asociación de Playa de Restview, y rápidamente se reservaron fondos para la construcción del Restview Beach Resort, un complejo que en su momento atrajo a la mayor parte los visitantes anuales. mayor que cualquier otro complejo de playa. Con los años, sin embargo, el complejo disminuyó en popularidad y sus diversas instalaciones estan en mal estado.\n\n Aún así, se ofrecen visitas guiadas por las afueras de la Central Hidroeléctrica a quienes lo visitan cada dos semanas (las reservas se deben hacer con al menos un mes de anticipación).\n\n Aunque espera días mejores, Restview Beach sigue siendo un lugar para empresas y familias por igual, se puede viajar no es muy caro.
-Dreamdram Canyon\n\n Escondida a lo largo de la pared de un cañón, Dreamdram Canyon's Power Plant se encuentra en un entorno con uno de los suelos más ricos en minerales y cristalinos del mundo.\n\n Si bien los recorridos por esta central eléctrica históricamente han estado estrictamente prohibidos, existen varios sitios de visita disponibles.\n\n Mientras desciende por las paredes y laderas escalonadas de Dreamdram Canyon, podrá ver el río que pasa por el cañón, así como la planta de energía distante, cuya fachada se asoma y sube por la pared del cañón. En la parte inferior del cañón, encontrará alivio, ya que es una caminata fácil y plana por las zonas de visita\n\n A lo largo del camino, puede notar que la alta concentración de energía del suelo produce una variedad de flora que hace que Dreamdram Canyon sea uno de los entornos más extraños del mundo.\n\n Si bien puede visitar el cañón en cualquier momento, recomendamos visitarlo durante una noche nublada, ya que el brillo del cristal de las paredes del cañón se combina con las luces de la planta de energía y el horizonte nocturno para crear una vista única 'Dreamdram'
-Boreas Heights\n\n La planta de energía Boreas Heights, ubicada en las montañas más allá de las marismas de Boreas Heights, muestra una hazaña impresionante de ingeniería en la montaña. La planta principal es inaccesible para el público, y gran parte de ella se encuentra dentro de la montaña, pero vale la pena ver sus características exteriores y su parque eólico de montaña. Debido a la ubicación, hasta la fecha, el Proyecto de Construcción de Energía Boreas ha sido una de las Plantas más difíciles que la ciudad ha completado.\n\n Siendo una de las Centrales Eléctricas más inaccesibles, alcanzarlo es todo un logro. Incluso los propios trabajadores de mantenimiento deben recorrer terrenos accidentados, rocosos y, a veces, montañosos, pocas personas han hecho el viaje.\n\n Sin embargo, aquellos que estén listos no se sentirán decepcionados. Después de atravesar un puerto de montaña, el paisaje se convierte en marismas en expansión, donde su mirada pronto se convertirá en un puente a sus pies, que cruza el turbio pantano que se extiende solo unos centímetros más abajo.\n\n Los vientos en esta área son notoriamente fuertes: recomendamos un de equipo de seguridad si va a hacer el viaje a través de las colinas rocosas.\n\n Solo unas pocas comunidades autosuficientes y privadas están esparcidas por las colinas, por lo que puede ser difícil encontrar alojamiento para pasar la noche. Le recomendamos que traiga sus propios suministros para acampar,así como la compra de algún tipo de sistema de radio de emergencia antes de sus viajes.
-Riverton\n\n Riverton se asienta a lo largo de la orilla sur del río Nishigawa, en un área que se extiende con océanos de cultivos, manchado con islas de árboles de color otoñal. También alberga una de las plantas de energía principales de Whiteforge, que se encuentra tanto en la orilla del río como dentro del río. Las visitas están prohibidas, pero se puede ver gran parte de su arquitectura sobresaliendo del medio del río.\n\n El terreno es plano, ondulado y rústico: recomendamos caminar a lo largo del paseo del río Riverton al amanecer, cruzando puentes de adoquines, pequeños arroyos burbujeantes y senderos de tierra desgastados por la historia. Si lo desea, incluso puede tomar un baño en el río.\n\n La zona está dedicada principalmente al cultivo de maíz, soja y arroz, pero también se utiliza en parte para la cría de ganado y una variedad de otros cultivos. Los trabajadores cumplen estrictos horarios y viven de acuerdo con los ciclos de crecimiento de sus cultivos.\n\n La mayoría de las granjas están administradas por familias, y varios artesanos pequeños y hábiles han creado sus propias tiendas. Con el paso de los años, Riverton se convirtió en una especie de ciudad turística, próspera por las ventas de alimentos frescos y artesanías.\n\n Para los turistas, Riverton ofrece una serie de actividades divertidas para niños y adultos por igual, desde laberintos de maíz y graneros, pintura, cerámica, hasta clases diarias para adultos sobre artesanías locales y habilidades como jardinería y tejido de punto.\n\n A menos de un día de viaje desde Whiteforge City, Riverton es un gran viaje para la familia.
-Magdal Woods\n\n Magdal Woods se encuentra en lo profundo de un bosque caducifolio al sur de Riverton. Originalmente el hogar de una de las bibliotecas más antiguas y mejor conservadas, más tarde se convirtió en el lugar de una planta de energía.\n\n La Central eléctrica llega a las profundidades del subsuelo y su construcción reveló la curiosa presencia de una red subterránea de cuevas. Antes de la construcción, hubo protestas debido a preocupaciones sobre la construcción de la planta de energía podría afectar al medio ambiente y los cimientos de la biblioteca, pero afortunadamente, en el momento de escribir esto, ambas construcciones parecen estar bien y no afecto al entorno, y no hay más construcciones planeadas.\n\n Navegar por el bosque puede ser extremadamente confuso si decides salir del camino. El suelo debajo de los árboles está lleno de baches, y seguir caminos se vuelve difícil debido a pequeñas colinas que rompen líneas de visión.\n\n Además, el área es propensa a fuertes neblinas en la madrugada y al atardecer.\n\n Una vez en la biblioteca, puede mirar y hacer fotocopias de una serie de libros raros, e incluso visitar algunos. La biblioteca se especializa en obras de ficción antiguas, algunas de las cuales fueron influenciadas por los propios bosques.\n\n Si tienes la oportunidad, asegúrate de donar o comprar algo en la tienda de regalos de la biblioteca. Si tienes hambre, hay un pequeño pueblo a pocos minutos a pie de la biblioteca, que también puede proporcionar una estancia de una noche para aquellos que deseen explorar la zona más.
-Oscar Basin\n\n Oscar Basin es una de las formaciones geológicas más peculiares que nuestro mundo puede ofrecer.\n\n Apodado 'la cuenca de árboles', el área alrededor de Oscar Basin está cerca de una mezcla de sumidero, valle y cañón, con sus paredes salpicadas de enormes ramas de árboles que sobresalen. A menudo, el área alrededor del pueblo simplemente se llama 'la cuenca'.\n\n El pueblo en sí está construido en la parte superior de estos árboles y dentro de las paredes de la cuenca cubierta de nieve. Navegar aquí implica atravesar un campo plano y cubierto de nieve. Pronto, el horizonte da paso a lo que parece ser un acantilado, ¡pero no! - Es un espectáculo que es poco probable que olvides pronto, a medida que se despliega la cuenca.\n\n A medida que desciende por escaleras, ramas y pequeños senderos, puede ver una Central eléctrica que se eleva desde el centro. Si lo desea, puede descender aún más lejos de Oscar Basin, al fondo de la cuenca, para obtener una de las vistas más sublimes, ver a través de un dosel de ramas, hasta el cielo despejado.\n\n Al caminar entre Oscar Basin, pueden preguntarse sobre la ardua construcción de una ciudad así, entre un 'bosque' creciente, extraño y antiguo.\n\n A pesar de esa historia, Oscar Basin aún se encuentra luchando financieramente, experimentando una tendencia a la despoblación. Como resultado, se ha recurrido al turismo para aumentar los ingresos, lo que lleva a un ambiente algo alegre e invernal en la aldea.
+Restview Beach \n\n Esta planta de energía se encuentra cerca del Restview Beach Resort. Originalmente, la zona era conocida por ser un popular pueblo de pescadores. Después de un tiempo, los investigadores notaron que el área tenía las condiciones ideales para una nueva Planta de Energía.\n\n Pocos años después de la construcción, gracias a la nueva fuente de Light Energy, se formó la Asociación de Playa de Restview, y rápidamente se reservaron fondos para la construcción del Restview Beach Resort, un complejo que en su momento atrajo a la mayor parte los visitantes anuales. mayor que cualquier otro complejo de playa. Con los años, sin embargo, el complejo disminuyó en popularidad y sus diversas instalaciones estan en mal estado.\n\n Aún así, se ofrecen visitas guiadas por las afueras de la Central Hidroeléctrica a quienes lo visitan cada dos semanas (las reservas se deben hacer con al menos un mes de anticipación).\n\n Aunque espera días mejores, Restview Beach sigue siendo un lugar para empresas y familias por igual, se puede viajar no es muy caro.
+Dreamdram Canyon \n\n Escondida a lo largo de la pared de un cañón, Dreamdram Canyon's Power Plant se encuentra en un entorno con uno de los suelos más ricos en minerales y cristalinos del mundo.\n\n Si bien los recorridos por esta central eléctrica históricamente han estado estrictamente prohibidos, existen varios sitios de visita disponibles.\n\n Mientras desciende por las paredes y laderas escalonadas de Dreamdram Canyon, podrá ver el río que pasa por el cañón, así como la planta de energía distante, cuya fachada se asoma y sube por la pared del cañón. En la parte inferior del cañón, encontrará alivio, ya que es una caminata fácil y plana por las zonas de visita\n\n A lo largo del camino, puede notar que la alta concentración de energía del suelo produce una variedad de flora que hace que Dreamdram Canyon sea uno de los entornos más extraños del mundo.\n\n Si bien puede visitar el cañón en cualquier momento, recomendamos visitarlo durante una noche nublada, ya que el brillo del cristal de las paredes del cañón se combina con las luces de la planta de energía y el horizonte nocturno para crear una vista única 'Dreamdram'
+Boreas Heights \n\n La planta de energía Boreas Heights, ubicada en las montañas más allá de las marismas de Boreas Heights, muestra una hazaña impresionante de ingeniería en la montaña. La planta principal es inaccesible para el público, y gran parte de ella se encuentra dentro de la montaña, pero vale la pena ver sus características exteriores y su parque eólico de montaña. Debido a la ubicación, hasta la fecha, el Proyecto de Construcción de Energía Boreas ha sido una de las Plantas más difíciles que la ciudad ha completado.\n\n Siendo una de las Centrales Eléctricas más inaccesibles, alcanzarlo es todo un logro. Incluso los propios trabajadores de mantenimiento deben recorrer terrenos accidentados, rocosos y, a veces, montañosos, pocas personas han hecho el viaje.\n\n Sin embargo, aquellos que estén listos no se sentirán decepcionados. Después de atravesar un puerto de montaña, el paisaje se convierte en marismas en expansión, donde su mirada pronto se convertirá en un puente a sus pies, que cruza el turbio pantano que se extiende solo unos centímetros más abajo.\n\n Los vientos en esta área son notoriamente fuertes: recomendamos un de equipo de seguridad si va a hacer el viaje a través de las colinas rocosas.\n\n Solo unas pocas comunidades autosuficientes y privadas están esparcidas por las colinas, por lo que puede ser difícil encontrar alojamiento para pasar la noche. Le recomendamos que traiga sus propios suministros para acampar,así como la compra de algún tipo de sistema de radio de emergencia antes de sus viajes.
+Riverton \n\n Riverton se asienta a lo largo de la orilla sur del río Nishigawa, en un área que se extiende con océanos de cultivos, manchado con islas de árboles de color otoñal. También alberga una de las plantas de energía principales de Whiteforge, que se encuentra tanto en la orilla del río como dentro del río. Las visitas están prohibidas, pero se puede ver gran parte de su arquitectura sobresaliendo del medio del río.\n\n El terreno es plano, ondulado y rústico: recomendamos caminar a lo largo del paseo del río Riverton al amanecer, cruzando puentes de adoquines, pequeños arroyos burbujeantes y senderos de tierra desgastados por la historia. Si lo desea, incluso puede tomar un baño en el río.\n\n La zona está dedicada principalmente al cultivo de maíz, soja y arroz, pero también se utiliza en parte para la cría de ganado y una variedad de otros cultivos. Los trabajadores cumplen estrictos horarios y viven de acuerdo con los ciclos de crecimiento de sus cultivos.\n\n La mayoría de las granjas están administradas por familias, y varios artesanos pequeños y hábiles han creado sus propias tiendas. Con el paso de los años, Riverton se convirtió en una especie de ciudad turística, próspera por las ventas de alimentos frescos y artesanías.\n\n Para los turistas, Riverton ofrece una serie de actividades divertidas para niños y adultos por igual, desde laberintos de maíz y graneros, pintura, cerámica, hasta clases diarias para adultos sobre artesanías locales y habilidades como jardinería y tejido de punto.\n\n A menos de un día de viaje desde Whiteforge City, Riverton es un gran viaje para la familia.
+Magdal Woods \n\n Magdal Woods se encuentra en lo profundo de un bosque caducifolio al sur de Riverton. Originalmente el hogar de una de las bibliotecas más antiguas y mejor conservadas, más tarde se convirtió en el lugar de una planta de energía.\n\n La Central eléctrica llega a las profundidades del subsuelo y su construcción reveló la curiosa presencia de una red subterránea de cuevas. Antes de la construcción, hubo protestas debido a preocupaciones sobre la construcción de la planta de energía podría afectar al medio ambiente y los cimientos de la biblioteca, pero afortunadamente, en el momento de escribir esto, ambas construcciones parecen estar bien y no afecto al entorno, y no hay más construcciones planeadas.\n\n Navegar por el bosque puede ser extremadamente confuso si decides salir del camino. El suelo debajo de los árboles está lleno de baches, y seguir caminos se vuelve difícil debido a pequeñas colinas que rompen líneas de visión.\n\n Además, el área es propensa a fuertes neblinas en la madrugada y al atardecer.\n\n Una vez en la biblioteca, puede mirar y hacer fotocopias de una serie de libros raros, e incluso visitar algunos. La biblioteca se especializa en obras de ficción antiguas, algunas de las cuales fueron influenciadas por los propios bosques.\n\n Si tienes la oportunidad, asegúrate de donar o comprar algo en la tienda de regalos de la biblioteca. Si tienes hambre, hay un pequeño pueblo a pocos minutos a pie de la biblioteca, que también puede proporcionar una estancia de una noche para aquellos que deseen explorar la zona más.
+Oscar Basin \n\n Oscar Basin es una de las formaciones geológicas más peculiares que nuestro mundo puede ofrecer.\n\n Apodado 'la cuenca de árboles', el área alrededor de Oscar Basin está cerca de una mezcla de sumidero, valle y cañón, con sus paredes salpicadas de enormes ramas de árboles que sobresalen. A menudo, el área alrededor del pueblo simplemente se llama 'la cuenca'.\n\n El pueblo en sí está construido en la parte superior de estos árboles y dentro de las paredes de la cuenca cubierta de nieve. Navegar aquí implica atravesar un campo plano y cubierto de nieve. Pronto, el horizonte da paso a lo que parece ser un acantilado, ¡pero no! - Es un espectáculo que es poco probable que olvides pronto, a medida que se despliega la cuenca.\n\n A medida que desciende por escaleras, ramas y pequeños senderos, puede ver una Central eléctrica que se eleva desde el centro. Si lo desea, puede descender aún más lejos de Oscar Basin, al fondo de la cuenca, para obtener una de las vistas más sublimes, ver a través de un dosel de ramas, hasta el cielo despejado.\n\n Al caminar entre Oscar Basin, pueden preguntarse sobre la ardua construcción de una ciudad así, entre un 'bosque' creciente, extraño y antiguo.\n\n A pesar de esa historia, Oscar Basin aún se encuentra luchando financieramente, experimentando una tendencia a la despoblación. Como resultado, se ha recurrido al turismo para aumentar los ingresos, lo que lleva a un ambiente algo alegre e invernal en la aldea.
 ENDSCENE
 
 SCENE riaz
 %%pic%Riaz%%Oy, bienvenido a la ciudad de Whiteforge! O ... ¡Gracias por venir! ¿Vienes o vas, ahora? Ohohoho!
 %%pic%Riaz%%Llegan los trenes y los trenes se van ... todo fuera ... la verdadera sabiduría de Riaz, su operador de trenes favorito. Ohohoho!
 %%pic%Riaz%%Bienvenido a Whiteforge, ¿puedo tomar su pedido? Ohohoho!
-%%pic%Riaz%%Pido disculpas, señora, el nuevo decreto dice que todos los que pasen por este puesto de control deben pagarle a Riaz una tarifa de un gusano de mermelada agria. Oh-ho-ho!
+%%pic%Riaz%%Pido disculpas, señora, el nuevo decreto dice que todos los que pasen por este puesto de control deben pagarle a Riaz una tarifa de un gusano de goma agria. Oh-ho-ho!
 %%pic%Riaz%%Aquí está la tarea para calentar tu cerebro: si el tren A va hacia el oeste desde la puerta principal de Srebrograd a una velocidad de 55 millas por hora, y el tren B viaja al este desde Government Station a una velocidad de 35 millas por hora, ¿cuánto cuesta dar un consejo a Riaz por su trabajo incomparable? Oh-ho-ho!
 %%pic%Riaz%%Pi-pi-piu! No te preocupes, ¡no es lo que piensas! Bueno, sí, juego en el trabajo, pero este no es un juego violento. Simplemente disparo a estos androides con mis propios rayos buenos, que causan explosiones de felicidad. Oh-ho-ho!
 %%pic%Riaz%%Oh ... ¡Aliph! ¿Está todo bien?
@@ -1187,7 +1187,7 @@ SCENE ronald
 //R: <candy>
 %%pic%Ronald%% %%speaker%g%8%%No sé de dónde vienen. En mi 65 cumpleaños, recibí una sopera llena de estos dulces y una nota que decía "For Young 'Uns". Los he estado repartiendo desde entonces.
 //<talk again> 3
-%%yn%Sí%0%No%1%¿Dónde compras caramelos?%2 %% %%pic%Ronald %% %%speaker%g%8%%¡Arriba en la pared, te digo! ¡Aquellos sonrientes Ragbirds me están llevando por la pared! ¿Estás aquí para ayudar a asustarlos?
+%%yn%Sí%0%No%1%¿Dónde compras caramelos?%2%% %%pic%Ronald %% %%speaker%g%8%%¡Arriba en la pared, te digo! ¡Aquellos sonrientes Ragbirds me están llevando por la pared! ¿Estás aquí para ayudar a asustarlos?
 //R: <if you scare many ragbirds, few snowlets> 4
 !i %%pic%Ronald%% %%speaker%g%8%%Hah! Justicia por fin! ¡Oh, qué alivio ver a esos vil carroñeros huyendo! Aquí, toma este Redberry Oozer para tu problema
 %%aliph%%¡Seguro gracias! {WAIT, 1} (... wow, esto es realmente dulce. ¿Cómo pueden los niños comer esto?)
@@ -1230,7 +1230,7 @@ ENDMAP
 MAP nature
 // Firs tcall to mayor at first chosen area
 SCENE g1_1_call_mayor
-%%aliph%% %%yn%Ir con el Alcalde Biggs%2%Vaya a otro lugar%1%%Bueno, parece que aquí es donde se puede encontrar una de las Centrales Eléctricas ... supongo que debo registrarme ahora. Pero tendré que asegurarme de arreglar esta Central Eléctrica antes de ir a otra parte.
+%%aliph%% %%yn%Reportarme con el Alcalde Biggs%2%Vaya a otro lugar%1%%Bueno, parece que aquí es donde se puede encontrar una de las Centrales Eléctricas ... supongo que debo reportarme ahora. Pero tendré que asegurarme de arreglar esta Central Eléctrica antes de ir a otra parte.
 %%aliph%%... entonces iré a otro lado por el momento.
 %%aliph%% %%im%%03A a Whiteforge, ¿me lees?
 %%aliph%% %%im%%...
@@ -1749,7 +1749,7 @@ SCENE checkin
 %%aliph%%Gracias, señor alcalde.
 // 5
 %%aliph%%Paxton está en {G2_1}, aquí no ... será mejor que regresemos más tarde.
-%%aliph%% %%yn%Sí% -1% No% -1 %% ¿Estoy listo para comenzar la misión?
+%%aliph%% %%yn%Sí%-1% No%-1%%¿Estoy listo para comenzar la misión?
 %%im%g2_1,checkin,0%% %%aliph%%El Geome se vislumbre en la distancia ... Será mejor que me asegure ahora.
 ENDSCENE
 
@@ -1941,7 +1941,7 @@ ENDMAP
 // G2_2
 MAP g2_2
 SCENE checkin
-%%aliph%% %%yn%Sí% -1% No% -1 %% ¿Estoy listo para comenzar la misión?
+%%aliph%% %%yn%Sí%-1% No%-1%%¿Estoy listo para comenzar la misión?
 %%aliph%% %%im%%Whiteforge, estoy en {G2_2}. Como era de esperar, el Geome ya está aquí. Lo sacaré.
 %%speaker%none%% %%pic%Biggs_Radio%%Con eso cuento, Aliph.
 // If you try to leave an S2 area after starting it but before finishing (3)
@@ -1977,7 +1977,7 @@ ENDMAP
 MAP g2_3
 	
 SCENE checkin
-%%aliph%% %%yn%Sí% -1% No% -1 %% ¿Estoy listo para comenzar la misión?
+%%aliph%% %%yn%Sí%-1%No%-1%%¿Estoy listo para comenzar la misión?
 %%aliph%% %%im%%Alcalde, estoy en {G2_3}, la Planta final. El último Geome está aquí.
 %%speaker%none%% %%pic%Biggs_Radio%%Ya sabes que hacer.
 ENDSCENE
@@ -2247,7 +2247,7 @@ SCENE tunnel_kvside
 // G9 to postgame
 %%aliph%% %%speaker%none%% %%yn%Viajar%-1%No importa%-1%%Puedo volver a Whiteforge desde aquí.
 %%aliph%% %%speaker%none%% %%yn%Continente sur%-1%Salida%-1%%Estoy en la estación de Northern Continent. ¿A donde?
-%%aliph%% %%speaker%none%% %%yn%Continente Norte%-1%Whiteforge (no disponible)%- 1%Salida%-1%%Estoy en la estación del Continente Sur, al oeste de Karavold. ¿A donde?
+%%aliph%% %%speaker%none%% %%yn%Continente Norte%-1%Whiteforge (no disponible)%-1%Salida%-1%%Estoy en la estación del Continente Sur, al oeste de Karavold. ¿A donde?
 %%aliph%% %%speaker%none%% %%yn%Continente Norte%-1%Whiteforge%-1%Salida%-1%%Estoy en la estación del Continente Sur, al oeste de Karavold. ¿A donde?
 ENDSCENE
 
@@ -2477,12 +2477,12 @@ SCENE outside_wf
 !i %%aliph%% %%speaker%none%%Yara! ¿Qué está pasando en la ciudad? ¡Perdí el contacto por radio!
 !i %%speaker%none%% %%pic%Yara%%No sé, la gente se está volviendo loca. Después de que los Geomes atacaron la ciudad, se supo que traían una inundación apocalíptica. Cuando comenzó a llover ... todos pensaron que no habías podido destruirlos. ¿¿Que pasó??
 !i %%aliph%% %%speaker%none%%¡Los destruí! ¡Todos ellos! ¡Hice exactamente lo que se suponía que debía hacer!
-!i %%speaker%none%% %%pic%Yara%% ¿¿Qué?? Entonces ... ¿qué está pasando?
+!i %%speaker%none%% %%pic%Yara%%¿¿Qué?? Entonces ... ¿qué está pasando?
 !i %%aliph%% %%speaker%none%%¡No lo sé! ¡No sé nada de nada! Es solo que ... ¡hice lo que se suponía que debía hacer! ¡Tengo que hablar con el alcalde Biggs y el doctor Wodsnick!
 !i %%speaker%none%% %%pic%Yara%% Espera, Aliph ... No creo que ellos realmente sepan lo que está pasando. ¿No son ellos los que te enviaron a esa misión? Hablemos con Humus.
 !i %%aliph%% %%speaker%none%%¡Ya he intentado hablar con Humus! ¡Todo lo que dice es simplemente evasivo y confuso!
 !i %%speaker%none%% %%pic%Yara%%No, he hablado mas con Humus... hay una forma en la que tienes que preguntarle las cosas. Y hay mucho sobre Humus que no sabes. Cosas de las que deberíamos hablar. Por favor, creo que podría ayudarnos ...
-!i %%speaker%none%% %%pic%Yara%% ¿Confía en mí, Aliph?
+!i %%speaker%none%% %%pic%Yara%%¿Confía en mí, Aliph?
 !i %%aliph%% %%speaker%none%%...
 !i %%aliph%% %%speaker%none%%De acuerdo, sí. Podemos hablar con Humus un momento. ¡Pero probablemente nos encontraremos con el alcalde de camino a la cárcel!
 %%speaker%none%% %%pic%Yara%%¡Vamos!
@@ -2522,7 +2522,7 @@ SCENE city_enter
 %%im%% %%aliph%%Los Geomes estaban tratando de destruir las Plantas ... ¡estaban tratando de reequilibrar el mundo! Y yo ... los maté ... los maté a todos.
 %%speaker%g%0%% %%pic%Yara%% %%im%%A-Aliph...
 %%speaker%g%0%% %%pic%Yara%% %%im%%No sabemos por qué los Geomes atacaron. Pudo haber sido una coincidencia!
-%%im%% %%aliph%% ¿No lo ves? ¡No importa, Yara! De cualquier forma, podrían habernos salvado de nosotros mismos, ¡pero lo arruiné! ¡Se acabo!
+%%im%% %%aliph%%¿No lo ves? ¡No importa, Yara! De cualquier forma, podrían habernos salvado de nosotros mismos, ¡pero lo arruiné! ¡Se acabo!
 %%im%% %%aliph%%Se acabo...
 %%aliph%%*sollozo*
 ENDSCENE
@@ -3227,7 +3227,7 @@ ENDMAP
 MAP shoreplace
 
 SCENE aliph_alone
-%%aliph%%Sueltalo, el camino principal a la planta de energía está bloqueado! Tendré que encontrar una ruta alternativa.
+%%aliph%%Oh no! el camino principal a la planta de energía está bloqueado! Tendré que encontrar una ruta alternativa.
 ENDSCENE
 
 SCENE clam_entrance
@@ -3555,7 +3555,7 @@ ENDSCENE
 
 // random message
 SCENE message_board
-%%aliph%%%%yn%Barcos%-1%Agriculturar%-1%Publicidads%-1 %%¿Qué debo leer?
+%%aliph%%%%yn%Barcos%-1%Agriculturar%-1%Publicidads%-1%%¿Qué debo leer?
 ENDSCENE
 SCENE msg_boating
 %%speaker%none%%AD: los barcos son para los ríos, no galerías de arte. aprende lo fundamental!
@@ -3575,7 +3575,7 @@ ENDSCENE
 
 SCENE post_office
 //Post Office
-%%pic%Stamp%% %%yn%Portero?% 2:s1:river, jr_1%Tablero de mensajes?%1%Chat%3%No importa% -1 %% ¡Debes ser el técnico de la ciudad, para eliminar la criatura Geome! Bienvenido a la oficina de correos de Riverton! Aquí nos ocupamos de todos los mensajes. Los mensajes permiten una comunicación rápida entre Riverton y las tierras de cultivo de los alrededores. ¡Es un servicio muy importante! ¿Necesitas enviar un mensaje?
+%%pic%Stamp%% %%yn%Portero?%2:s1:river, jr_1%Tablero de mensajes?%1%Chat%3%No importa%-1%% ¡Debes ser el técnico de la ciudad, para eliminar la criatura Geome! Bienvenido a la oficina de correos de Riverton! Aquí nos ocupamos de todos los mensajes. Los mensajes permiten una comunicación rápida entre Riverton y las tierras de cultivo de los alrededores. ¡Es un servicio muy importante! ¿Necesitas enviar un mensaje?
 %%pic%Stamp%%A veces las personas no envían mensajes a nadie en particular. Los mensajes se pegan en el Tablero de mensajes.
 %%pic%Stamp%% %%set_state%1%1%river%post_office%%Entiendo, enviaremos un mensaje al portero Rosso de inmediato. ¿Por qué no vuelves y esperas a la puerta?
 %%pic%Stamp%%Trabajando aquí, veo que todos los mensajes que van y vienen. Realmente puede llegar a intuir mucho sobre las personas por sus hábitos de correo. ¡Sin embargo, nunca lo revelaré!
@@ -3753,8 +3753,8 @@ SCENE cafe_owner
 ENDSCENE
 
 SCENE cafe_owner_2
-%%pic%Tanya%% %%yn%Me gustaría pedir algo.%1%¿Cómo va el negocio?%2 %%¡Bienvenido a Riverton Cafe! ¿En que puedo ayudarte?
-%%pic%Tanya%% %%yn%Sopa de Rivershroom%3%Cafe Espresso%6%Olea de zanahoria Umakara%9 %%¿Qué te gustaría?
+%%pic%Tanya%% %%yn%Me gustaría pedir algo.%1%¿Cómo va el negocio?%2%%¡Bienvenido a Riverton Cafe! ¿En que puedo ayudarte?
+%%pic%Tanya%% %%yn%Sopa de Rivershroom%3%Cafe Espresso%6%Olea de zanahoria Umakara%9%%¿Qué te gustaría?
 %%pic%Tanya%%El negocio va poco a poco, pero el alquiler es bajo y la ubicación es espectacular. ¡Y recientemente, las ventas han estado subiendo! Las cosas se ven bien, al menos por ahora. Pero, nunca se sabe con cafés. Estamos bastante a merced de las subidas y bajadas de la popularidad de nuestra ubicación.
 !i %%pic%Tanya%% %%im%%¡Esta sopa caliente está hecha con una variedad especial de hongos que no encontrarás en ningún otro lugar!
 %%im%% %%aliph%%¡Gracias!
@@ -3832,9 +3832,9 @@ ENDMAP
 MAP shore
 
 SCENE sign
-== ¡Bienvenido a Restview Beach! == \ n "¡Merece una Restview!"
-==¡Bienvenido a Clear Breeze Island!==\Parte del grupo de descanso de Restview Service Locations\ n\ n\ n"¡Merece un Clear Breeze!"
-==¡Bienvenido a Sunglow Island!==\Parte del grupo de descanso de Restview Service Locations\n\n\n"¡Mereces un Sunglow!"
+==¡Bienvenido a Restview Beach!==\n"¡Merece una Restview!"
+==¡Bienvenido a Clear Breeze Island!==\nParte del grupo de descanso de Restview Service Locations\n\n\n"¡Merece un Clear Breeze!"
+==¡Bienvenido a Sunglow Island!==\nParte del grupo de descanso de Restview Service Locations\n\n\n"¡Mereces un Sunglow!"
 ==Bienvenido a ISLAND-NS-0013!==\nPart del Grupo Restview de Ubicaciones del Servicio de Relajación\n- ¡PARA ALQUILER! -\n* Distancia a pie de la playa\n*Grandes oportunidades para jubilados\n*Gimnasio abierto todos los dias*\n\n¿Listo para el descanso y la relajación? Gestión de contactos en ... (las palabras del cartel están borrosas).
 ENDSCENE
 
@@ -3852,13 +3852,13 @@ ENDSCENE
 
 
 SCENE lounger_3
-%%pic%Jorani%%%%yn%Asiento ergonómico postural%1%Escritorio oscilante giratorio%2%%Estoy llevando a cabo una gran planificaciónl. ¿Qué opción crees que facilitaría mayores ganancias en la productividad de mi lugar de trabajo?
+%%pic%Jorani%%%%yn%Asiento ergonómico postural%1%Escritorio oscilante giratorio%2%%Estoy llevando a cabo una gran planificación. ¿Qué opción crees que facilitaría mayores ganancias en la productividad de mi lugar de trabajo?
 %%pic%Jorani%%%%after%0%%Probablemente tengas razón. Aunque podría pasar por alto el flujo extra de sangre a mi córtex frontal que sería facilitado por el escritorio,
 %%pic%Jorani%%%%after%0%%Ese es probablemente un consejo inteligente. ¿Pero no crees que el asiento ergonomico alinearía mis vértebras con menores gastos de energía en general?
 ENDSCENE
 
 SCENE lounger_4
-%%pic%Gavin%%Oye, deja de correr tanto, como si estuvieras muy ocupadoe. ¿Crees que eres el único con lugares a donde ir y gente a la que conocer?
+%%pic%Gavin%%Oye, deja de correr tanto, como si estuvieras muy ocupado. ¿Crees que eres el único con lugares a donde ir y gente a la que conocer?
 %%pic%Gavin%%Estás tirando arena en mi ropa. ¿Qué pasa si tengo una reunión con un cliente más tarde? ¿Alguna vez piensas en eso? ¿Quieres que rocíe arena de mi ropa en una reunión con un cliente, como una toalla de playa con temática de Orca?
 ENDSCENE
 
@@ -3870,7 +3870,7 @@ inogre
 %%pic%Fisherwoman%%%%im%%Solía ser un área popular llamada 'Restview'. Luego, en algún momento, la gente comenzó a construir sus propias piscinas en sus propios patios traseros. Se dieron cuenta de que para alejarse realmente de todo, necesitas estar solo.
 %%pic%Fisherwoman%%%%im%%Cuando eres solo tú, solo detrás de tu cerca, no tienes que preocuparte por quién está mirando o tu efecto en la sociedad. Nadie sabrá si estás trabajando demasiado o muy poco. ¿Por qué mostrar tu falta de productividad al mundo si no tienes que hacerlo?
 %%pic%Fisherwoman%%Pero nunca funcionó para mí ... Necesito hablar con la gente para distraerme de mis propios pensamientos. Es por eso que me siento aquí pescando y esperando a que todos vuelvan.
-%%pic%Fisherwoman%%Clariseed' es como se llaman las semillas de la flor de Claralilly. Es un remedio común para el acnél. Hay un parcela en Sunglow Island.
+%%pic%Fisherwoman%%Clariseed' es como se llaman las semillas de la flor de Claralilly. Es un remedio común para el acné. Hay un parcela en Sunglow Island.
 // 8
 !i %%pic%Fisherwoman%%¡Hola extraño! ¿Eres una de las personas de mantenimiento de Whiteforge? Debo decirte ... ¡Creo que sé lo que le sucedió a la Planta!
 !i %%aliph%%¿¿Qué viste??
@@ -3909,7 +3909,7 @@ SCENE starfish_center
 !i %%aliph%%¿Huh?
 %%im%% %%pic%Starfish%% %%speaker%none%%[¿Desea reparar la estación de servicio, no? pero tu camino está bloqueado por los escombros]
 %%im%% %%aliph%%Si…
-%%pic%Starfish%% %%speaker%none%%%%yn%Suena bien!%5%¿A qué te refieres?%5%%[los escombros funcionan de manera misteriosa. \nbueno, me cubres la espalda, yo cubro la suyas, suena bien ¿no?]
+%%pic%Starfish%% %%speaker%none%%%%yn%Suena bien!%5%¿A qué te refieres?%5%%[los escombros funcionan de manera misteriosa. \nbueno, me cubres la espalda, yo cubro la suya, suena bien ¿no?]
 %%pic%Starfish%% %%skip_if%s%2%1%*%*%7%shore%starfish_gorgon%% %%speaker%none%%[Algunos de los pasos de mi brazo están bloqueados por la acumulación de partículas y la inflamación. si puede encontrar un clarificante, puede usar los aceites naturales del clariseed para despejar mis obstrucciones. entre otros beneficios, esto le permitirá acceder a la estación de servicio a través de uno de mis otros pasos de los brazos]
 %%pic%Starfish%% %%skip_if%s%2%1%*%*%7%shore%starfish_gorgon%% %%after%5%% %%speaker%none%%[por favor traiga clarificación terapéutica]
 %%speaker%none%%[...]
@@ -3935,7 +3935,7 @@ ENDSCENE
 SCENE starfish_gorgon
 %%skip_if%i%11%false%*%*%1%% %%aliph%% %%yn%No%-1%Sí% %%Es el corazón de la estrella de mar. ¿Debería poner la semilla Gorgon?
 %%aliph%%Es el corazón de la estrella de mar
-%%skip_if%i%11%false%*%*%3%% %%aliph%% %%yn%No%-1%Sí%1 %%Es el estómago del la estrella de mar. ¿Debería poner la semilla Gorgon?
+%%skip_if%i%11%false%*%*%3%% %%aliph%% %%yn%No%-1%Sí%1%%Es el estómago del la estrella de mar. ¿Debería poner la semilla Gorgon?
 %%aliph%%Es el estómago de la estrella de mar.
 //if you try to drop the gorgon seed in the heart
 %%pic%Starfish%% %%set_state%1%1%% %%set_state%2%1%% %%im%% %%speaker%none%%{MUSIC,null}[h-hey! urgh.... uh... unh...]
@@ -4345,7 +4345,7 @@ ENDSCENE
 
 # <has access to the fan controls. lot of scripting for this, but don't do it in any detail until we have the whole scene and animations pinned down> #
 SCENE wilbert_init
-%%skip_if%dirty%*%*%hill%wilbert%0%% %%aliph%% %%im%%Hmm ... parece que esa persona de allí podría controlar a los fanáticos. Hola por allí!
+%%skip_if%dirty%*%*%hill%wilbert%0%% %%aliph%% %%im%%Hmm ... parece que esa persona de allí podría controlar a los ventiladores. Hola por allí!
 %%im%% %%pic%Wilbert%%Eh?
 %%im%% %%aliph%% Hola, mi nombre es Aliph y yo--
 %%im%% %%pic%Wilbert%%OH. Tu nombre es "ALIPH" ¿eh? Apuesto a que estás muy feliz por eso, ¿eh? Muy buen nombre, ¿eh? Bueno, ALIPH, ¿puedes probar para un circo EN VIVO? ¿Bien? ¿Huh? ¿¿¿Puedes???
@@ -4502,7 +4502,7 @@ SCENE aliph_surface
 ENDSCENE
 
 SCENE cliff_scene
-%%aliph%%Ah, está el Geome de aire , dando vueltas en el cielo muy arriba,
+%%aliph%%Ah, está el Geome de aire, dando vueltas en el cielo muy arriba,
 %%aliph%%!!!
 %%aliph%%No ... ¡Necesito luchar libre!
 %%aliph%% %%yn%Siéntate y espera%-1%No importa%-1%%¡Tal vez pueda esconderme aquí y engancharme al Geome!
@@ -4679,19 +4679,19 @@ ENDMAP
 MAP helptip
 
 SCENE btnkey
-Llave.
-botón.
+llave
+botón
 na
 n/a
 n/a
 // 5
-SHOULDER o botón X
+Shoulder o botón X
 Botón ● o ■
-SHOULDER, botones ● o ■
-SHOULDER, botones B o X
+Shoulder, botones ● o ■
+Shoulder, botones B o X
 Botón B o X
 // 10
-SHOULDER o botón A
+Shoulder o botón A
 ENDSCENE
 
 SCENE intro
@@ -4864,12 +4864,12 @@ Pulsa {PAUSE_KEY} para borrar.
 ENDSCENE
 
 SCENE save
-¿Usar este archivo?\n No Si
+¿Usar este archivo?\n No    Sí
 Nuevo juego
 %%speaker%none%%Por favor borre este archivo antes de comenzar un nuevo juego.
-¿Borrar archivo?\nNo Sí
+¿Borrar archivo?\n No    Sí
 %%yn%No importa%-1%Yes%-1%%%%speaker%none%%¿Estás realmente seguro de que deseas eliminar este archivo?
-¿Guardar en este archivo?\n No Sí
+¿Usar este archivo?\n No    Sí
 ENDSCENE
 
 // Plays when quitting game from menu
@@ -4933,7 +4933,7 @@ Idioma
 Opciones de velocidad de ejecución
 Opciones de juego
 {CONFIRM_KEY}: Confirmar\n{JUMP_KEY}: Cancelar
-\nConfirmar configuración\nnPara seleccionar, use {CONFIRM KEY}.\Para salir de un submenú, use {JUMP_KEY}.
+\nConfirmar configuración\n\nPara seleccionar, use {CONFIRM_KEY}.\nPara salir de un submenú, use {JUMP_KEY}.
 Escalado en ventana
 ENDSCENE
 
@@ -5660,7 +5660,7 @@ SCENE enterarea_desc
 Fay Rouge
 La colina de elechos rojos
 Whiteforge
-La gran ciudad de la energía de laluz
+La gran ciudad de la energía de la luz
 Restview Beach
 Olvida tus responsabilidades
 Dreamdram Canyon
