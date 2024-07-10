@@ -986,8 +986,8 @@ ENDSCENE
 
 SCENE lib_intro
 %%aliph%% %%speaker%none%%La biblioteca está cerrada ahora. Estará abierta en unos días.
-%%aliph%% %%speaker%none%%%%yn%Ir%-1%Hablar con bibliotecario%-1%Mirar libros%-1:s1:city, lib_talk_g1_1_first%Caja de donaciones%-1:s1:city,lib_talk_g2_1%%Es la biblioteca local...
-%%aliph%% %%speaker%none%%%%yn%No importa%-1%Restview Beach%-1: e9%Dreamdram Canyon%-1:e12%Boreas Heights%-1:e13%Riverton%-1: e15%Magdal Woods%-1:e14%Oscar Basin%-1:e16%%Son aquellas guías de viaje ... ¿cuál debería leer?
+%%aliph%% %%speaker%none%%%%yn%Ir%-1%Hablar con bibliotecario%-1%Mirar libros%-1:s1:city,lib_talk_g1_1_first%Caja de donaciones%-1:s1:city,lib_talk_g2_1%%Es la biblioteca local...
+%%aliph%% %%speaker%none%%%%yn%No importa%-1%Restview Beach%-1:e9%Dreamdram Canyon%-1:e12%Boreas Heights%-1:e13%Riverton%-1:e15%Magdal Woods%-1:e14%Oscar Basin%-1:e16%%Son aquellas guías de viaje... ¿cuál debería leer?
 ENDSCENE
 
 
@@ -1004,7 +1004,7 @@ SCENE lib_talk_g1_1_first
 !i %%pic%Nate%% %%speaker%none%%Contaminación, grandes explosiones, muertes por -
 !i %%pic%Aliph%% %%speaker%none%%Lo sé, lo sé. Es ... horrible.
 !i %%pic%Nate%% %%speaker%none%%Correcto…
-!i %%pic%Nate%% %%speaker%none%%Así que pensé que la gente querría saber acerca de estos lugares, porque cuando un desastre afecta a la ciudad, todos quieren saber sobre la ciudad y tal y tal. Ya sabes, niños, adultos ... teóricos de la conspiración. Es un poco ajustado para el presupuesto, pero bueno, a la gente le gusta.Es bueno para el movimiento de la biblioteca.
+!i %%pic%Nate%% %%speaker%none%%Así que pensé que la gente querría saber acerca de estos lugares, porque cuando un desastre afecta a la ciudad, todos quieren saber sobre la ciudad y tal y tal. Ya sabes, niños, adultos ... teóricos de la conspiración. Es un poco ajustado para el presupuesto, pero bueno, a la gente le gusta. Es bueno para el movimiento de la biblioteca.
 !i %%pic%Nate%% %%speaker%none%%Me pregunto si debería iniciar un desastre yo mismo.
 !i %%pic%Aliph%% %%speaker%none%%No sé si es una buena idea, para ser honesto.
 !i %%pic%Nate%% %%speaker%none%%Sí, sí, estoy bromeando ... pero eh.
@@ -1125,12 +1125,12 @@ SCENE train_hi_choice
 ENDSCENE
 
 SCENE lib_books
-Restview Beach \n\n Esta planta de energía se encuentra cerca del Restview Beach Resort. Originalmente, la zona era conocida por ser un popular pueblo de pescadores. Después de un tiempo, los investigadores notaron que el área tenía las condiciones ideales para una nueva Planta de Energía.\n\n Pocos años después de la construcción, gracias a la nueva fuente de Light Energy, se formó la Asociación de Playa de Restview, y rápidamente se reservaron fondos para la construcción del Restview Beach Resort, un complejo que en su momento atrajo a la mayor parte los visitantes anuales. mayor que cualquier otro complejo de playa. Con los años, sin embargo, el complejo disminuyó en popularidad y sus diversas instalaciones estan en mal estado.\n\n Aún así, se ofrecen visitas guiadas por las afueras de la Central Hidroeléctrica a quienes lo visitan cada dos semanas (las reservas se deben hacer con al menos un mes de anticipación).\n\n Aunque espera días mejores, Restview Beach sigue siendo un lugar para empresas y familias por igual, se puede viajar no es muy caro.
-Dreamdram Canyon \n\n Escondida a lo largo de la pared de un cañón, Dreamdram Canyon's Power Plant se encuentra en un entorno con uno de los suelos más ricos en minerales y cristalinos del mundo.\n\n Si bien los recorridos por esta central eléctrica históricamente han estado estrictamente prohibidos, existen varios sitios de visita disponibles.\n\n Mientras desciende por las paredes y laderas escalonadas de Dreamdram Canyon, podrá ver el río que pasa por el cañón, así como la planta de energía distante, cuya fachada se asoma y sube por la pared del cañón. En la parte inferior del cañón, encontrará alivio, ya que es una caminata fácil y plana por las zonas de visita\n\n A lo largo del camino, puede notar que la alta concentración de energía del suelo produce una variedad de flora que hace que Dreamdram Canyon sea uno de los entornos más extraños del mundo.\n\n Si bien puede visitar el cañón en cualquier momento, recomendamos visitarlo durante una noche nublada, ya que el brillo del cristal de las paredes del cañón se combina con las luces de la planta de energía y el horizonte nocturno para crear una vista única 'Dreamdram'
-Boreas Heights \n\n La planta de energía Boreas Heights, ubicada en las montañas más allá de las marismas de Boreas Heights, muestra una hazaña impresionante de ingeniería en la montaña. La planta principal es inaccesible para el público, y gran parte de ella se encuentra dentro de la montaña, pero vale la pena ver sus características exteriores y su parque eólico de montaña. Debido a la ubicación, hasta la fecha, el Proyecto de Construcción de Energía Boreas ha sido una de las Plantas más difíciles que la ciudad ha completado.\n\n Siendo una de las Centrales Eléctricas más inaccesibles, alcanzarlo es todo un logro. Incluso los propios trabajadores de mantenimiento deben recorrer terrenos accidentados, rocosos y, a veces, montañosos, pocas personas han hecho el viaje.\n\n Sin embargo, aquellos que estén listos no se sentirán decepcionados. Después de atravesar un puerto de montaña, el paisaje se convierte en marismas en expansión, donde su mirada pronto se convertirá en un puente a sus pies, que cruza el turbio pantano que se extiende solo unos centímetros más abajo.\n\n Los vientos en esta área son notoriamente fuertes: recomendamos un de equipo de seguridad si va a hacer el viaje a través de las colinas rocosas.\n\n Solo unas pocas comunidades autosuficientes y privadas están esparcidas por las colinas, por lo que puede ser difícil encontrar alojamiento para pasar la noche. Le recomendamos que traiga sus propios suministros para acampar,así como la compra de algún tipo de sistema de radio de emergencia antes de sus viajes.
-Riverton \n\n Riverton se asienta a lo largo de la orilla sur del río Nishigawa, en un área que se extiende con océanos de cultivos, manchado con islas de árboles de color otoñal. También alberga una de las plantas de energía principales de Whiteforge, que se encuentra tanto en la orilla del río como dentro del río. Las visitas están prohibidas, pero se puede ver gran parte de su arquitectura sobresaliendo del medio del río.\n\n El terreno es plano, ondulado y rústico: recomendamos caminar a lo largo del paseo del río Riverton al amanecer, cruzando puentes de adoquines, pequeños arroyos burbujeantes y senderos de tierra desgastados por la historia. Si lo desea, incluso puede tomar un baño en el río.\n\n La zona está dedicada principalmente al cultivo de maíz, soja y arroz, pero también se utiliza en parte para la cría de ganado y una variedad de otros cultivos. Los trabajadores cumplen estrictos horarios y viven de acuerdo con los ciclos de crecimiento de sus cultivos.\n\n La mayoría de las granjas están administradas por familias, y varios artesanos pequeños y hábiles han creado sus propias tiendas. Con el paso de los años, Riverton se convirtió en una especie de ciudad turística, próspera por las ventas de alimentos frescos y artesanías.\n\n Para los turistas, Riverton ofrece una serie de actividades divertidas para niños y adultos por igual, desde laberintos de maíz y graneros, pintura, cerámica, hasta clases diarias para adultos sobre artesanías locales y habilidades como jardinería y tejido de punto.\n\n A menos de un día de viaje desde Whiteforge City, Riverton es un gran viaje para la familia.
-Magdal Woods \n\n Magdal Woods se encuentra en lo profundo de un bosque caducifolio al sur de Riverton. Originalmente el hogar de una de las bibliotecas más antiguas y mejor conservadas, más tarde se convirtió en el lugar de una planta de energía.\n\n La Central eléctrica llega a las profundidades del subsuelo y su construcción reveló la curiosa presencia de una red subterránea de cuevas. Antes de la construcción, hubo protestas debido a preocupaciones sobre la construcción de la planta de energía podría afectar al medio ambiente y los cimientos de la biblioteca, pero afortunadamente, en el momento de escribir esto, ambas construcciones parecen estar bien y no afecto al entorno, y no hay más construcciones planeadas.\n\n Navegar por el bosque puede ser extremadamente confuso si decides salir del camino. El suelo debajo de los árboles está lleno de baches, y seguir caminos se vuelve difícil debido a pequeñas colinas que rompen líneas de visión.\n\n Además, el área es propensa a fuertes neblinas en la madrugada y al atardecer.\n\n Una vez en la biblioteca, puede mirar y hacer fotocopias de una serie de libros raros, e incluso visitar algunos. La biblioteca se especializa en obras de ficción antiguas, algunas de las cuales fueron influenciadas por los propios bosques.\n\n Si tienes la oportunidad, asegúrate de donar o comprar algo en la tienda de regalos de la biblioteca. Si tienes hambre, hay un pequeño pueblo a pocos minutos a pie de la biblioteca, que también puede proporcionar una estancia de una noche para aquellos que deseen explorar la zona más.
-Oscar Basin \n\n Oscar Basin es una de las formaciones geológicas más peculiares que nuestro mundo puede ofrecer.\n\n Apodado 'la cuenca de árboles', el área alrededor de Oscar Basin está cerca de una mezcla de sumidero, valle y cañón, con sus paredes salpicadas de enormes ramas de árboles que sobresalen. A menudo, el área alrededor del pueblo simplemente se llama 'la cuenca'.\n\n El pueblo en sí está construido en la parte superior de estos árboles y dentro de las paredes de la cuenca cubierta de nieve. Navegar aquí implica atravesar un campo plano y cubierto de nieve. Pronto, el horizonte da paso a lo que parece ser un acantilado, ¡pero no! - Es un espectáculo que es poco probable que olvides pronto, a medida que se despliega la cuenca.\n\n A medida que desciende por escaleras, ramas y pequeños senderos, puede ver una Central eléctrica que se eleva desde el centro. Si lo desea, puede descender aún más lejos de Oscar Basin, al fondo de la cuenca, para obtener una de las vistas más sublimes, ver a través de un dosel de ramas, hasta el cielo despejado.\n\n Al caminar entre Oscar Basin, pueden preguntarse sobre la ardua construcción de una ciudad así, entre un 'bosque' creciente, extraño y antiguo.\n\n A pesar de esa historia, Oscar Basin aún se encuentra luchando financieramente, experimentando una tendencia a la despoblación. Como resultado, se ha recurrido al turismo para aumentar los ingresos, lo que lleva a un ambiente algo alegre e invernal en la aldea.
+Restview Beach \n\n Esta planta de energía se encuentra cerca del Restview Beach Resort. Originalmente, la zona era conocida por ser un popular pueblo de pescadores. Después de un tiempo, los investigadores notaron que el área tenía las condiciones ideales para una nueva Planta de Energía. \n\n Pocos años después de la construcción, gracias a la nueva fuente de Light Energy, se formó la Asociación de Playa de Restview, y rápidamente se reservaron fondos para la construcción del Restview Beach Resort, un complejo que en su momento atrajo a la mayor cantidad de visitantes anuales, más que cualquier otro complejo de playa. Con los años, sin embargo, el complejo disminuyó en popularidad y sus diversas instalaciones están en mal estado. \n\n Aun así, se ofrecen visitas guiadas cada dos semanas por las afueras de la Central Hidroeléctrica a quienes lo visitan (las reservas se deben hacer con al menos un mes de anticipación). \n\n Aunque tuvo días mejores, Restview Beach sigue siendo un lugar donde empresas y familias por igual pueden viajar sin gastar mucho.
+Dreamdram Canyon \n\n Escondida a lo largo de la pared de un cañón, Dreamdram Canyon's Power Plant se encuentra en un entorno con uno de los suelos más ricos en minerales y cristalinos del mundo. \n\n Si bien los recorridos por esta central eléctrica históricamente han estado estrictamente prohibidos, existen varios sitios de visita disponibles. \n\n Mientras desciende por las paredes y laderas escalonadas de Dreamdram Canyon, podrá ver el río que pasa por el cañón, así como la planta de energía distante, cuya fachada se asoma y sube por la pared del cañón. En la parte inferior del cañón, encontrará alivio, ya que es una caminata fácil y plana por las zonas de visita \n\n A lo largo del camino, puede notar que la alta concentración de energía del suelo produce una variedad de flora que hace que Dreamdram Canyon sea uno de los entornos más extraños del mundo. \n\n Si bien puede visitar el cañón en cualquier momento, recomendamos visitarlo durante una noche nublada, ya que el brillo del cristal de las paredes del cañón se combina con las luces de la planta de energía y el horizonte nocturno para crear una vista única 'Dreamdram'
+Boreas Heights \n\n La planta de energía Boreas Heights, ubicada en las montañas más allá de las marismas de Boreas Heights, muestra una hazaña impresionante de ingeniería en la montaña. La planta principal es inaccesible para el público, y gran parte de ella se encuentra dentro de la montaña, pero vale la pena ver sus características exteriores y su parque eólico de montaña. Debido a la ubicación, hasta la fecha, el Proyecto de Construcción de Energía Boreas ha sido una de las Plantas más difíciles que la ciudad ha completado. \n\n Siendo una de las Centrales Eléctricas más inaccesibles, alcanzarlo es todo un logro. Incluso los propios trabajadores de mantenimiento deben recorrer terrenos accidentados, rocosos y, a veces, montañosos, pocas personas han hecho el viaje. \n\n Sin embargo, aquellos que estén listos no se sentirán decepcionados. Después de atravesar un puerto de montaña, el paisaje se convierte en marismas en expansión, donde su mirada pronto se convertirá en un puente a sus pies, que cruza el turbio pantano que se extiende solo unos centímetros más abajo. \n\n Los vientos en esta área son notoriamente fuertes: recomendamos un de equipo de seguridad si va a hacer el viaje a través de las colinas rocosas. \n\n Solo unas pocas comunidades autosuficientes y privadas están esparcidas por las colinas, por lo que puede ser difícil encontrar alojamiento para pasar la noche. Le recomendamos que traiga sus propios suministros para acampar,así como la compra de algún tipo de sistema de radio de emergencia antes de sus viajes.
+Riverton \n\n Riverton se asienta a lo largo de la orilla sur del río Nishigawa, en un área que se extiende con océanos de cultivos, manchado con islas de árboles de color otoñal. También alberga una de las plantas de energía principales de Whiteforge, que se encuentra tanto en la orilla del río como dentro del río. Las visitas están prohibidas, pero se puede ver gran parte de su arquitectura sobresaliendo del medio del río. \n\n El terreno es plano, ondulado y rústico: recomendamos caminar a lo largo del paseo del río Riverton al amanecer, cruzando puentes de adoquines, pequeños arroyos burbujeantes y senderos de tierra desgastados por la historia. Si lo desea, incluso puede tomar un baño en el río. \n\n La zona está dedicada principalmente al cultivo de maíz, soja y arroz, pero también se utiliza en parte para la cría de ganado y una variedad de otros cultivos. Los trabajadores cumplen estrictos horarios y viven de acuerdo con los ciclos de crecimiento de sus cultivos. \n\n La mayoría de las granjas están administradas por familias, y varios artesanos pequeños y hábiles han creado sus propias tiendas. Con el paso de los años, Riverton se convirtió en una especie de ciudad turística, próspera por las ventas de alimentos frescos y artesanías. \n\n Para los turistas, Riverton ofrece una serie de actividades divertidas para niños y adultos por igual, desde laberintos de maíz y graneros, pintura, cerámica, hasta clases diarias para adultos sobre artesanías locales y habilidades como jardinería y tejido de punto. \n\n A menos de un día de viaje desde Whiteforge City, Riverton es un gran viaje para la familia.
+Magdal Woods \n\n Magdal Woods se encuentra en lo profundo de un bosque caducifolio al sur de Riverton. Originalmente el hogar de una de las bibliotecas más antiguas y mejor conservadas, más tarde se convirtió en el lugar de una planta de energía. \n\n La Central eléctrica llega a las profundidades del subsuelo y su construcción reveló la curiosa presencia de una red subterránea de cuevas. Antes de la construcción, hubo protestas debido a preocupaciones sobre la construcción de la planta de energía podría afectar al medio ambiente y los cimientos de la biblioteca, pero afortunadamente, en el momento de escribir esto, ambas construcciones parecen estar bien y no afecto al entorno, y no hay más construcciones planeadas. \n\n Navegar por el bosque puede ser extremadamente confuso si decides salir del camino. El suelo debajo de los árboles está lleno de baches, y seguir caminos se vuelve difícil debido a pequeñas colinas que rompen líneas de visión. \n\n Además, el área es propensa a fuertes neblinas en la madrugada y al atardecer. \n\n Una vez en la biblioteca, puede mirar y hacer fotocopias de una serie de libros raros, e incluso visitar algunos. La biblioteca se especializa en obras de ficción antiguas, algunas de las cuales fueron influenciadas por los propios bosques. \n\n Si tienes la oportunidad, asegúrate de donar o comprar algo en la tienda de regalos de la biblioteca. Si tienes hambre, hay un pequeño pueblo a pocos minutos a pie de la biblioteca, que también puede proporcionar una estancia de una noche para aquellos que deseen explorar la zona más.
+Oscar Basin \n\n Oscar Basin es una de las formaciones geológicas más peculiares que nuestro mundo puede ofrecer. \n\n Apodado 'la cuenca de árboles', el área alrededor de Oscar Basin está cerca de una mezcla de sumidero, valle y cañón, con sus paredes salpicadas de enormes ramas de árboles que sobresalen. A menudo, el área alrededor del pueblo simplemente se llama 'la cuenca'. \n\n El pueblo en sí está construido en la parte superior de estos árboles y dentro de las paredes de la cuenca cubierta de nieve. Navegar aquí implica atravesar un campo plano y cubierto de nieve. Pronto, el horizonte da paso a lo que parece ser un acantilado, ¡pero no! - Es un espectáculo que es poco probable que olvides pronto, a medida que se despliega la cuenca. \n\n A medida que desciende por escaleras, ramas y pequeños senderos, puede ver una Central eléctrica que se eleva desde el centro. Si lo desea, puede descender aún más lejos de Oscar Basin, al fondo de la cuenca, para obtener una de las vistas más sublimes, ver a través de un dosel de ramas, hasta el cielo despejado. \n\n Al caminar entre Oscar Basin, pueden preguntarse sobre la ardua construcción de una ciudad así, entre un 'bosque' creciente, extraño y antiguo. \n\n A pesar de esa historia, Oscar Basin aún se encuentra luchando financieramente, experimentando una tendencia a la despoblación. Como resultado, se ha recurrido al turismo para aumentar los ingresos, lo que lleva a un ambiente algo alegre e invernal en la aldea.
 ENDSCENE
 
 SCENE riaz
@@ -1138,7 +1138,7 @@ SCENE riaz
 %%pic%Riaz%%Llegan los trenes y los trenes se van ... todo fuera ... la verdadera sabiduría de Riaz, su operador de trenes favorito. Ohohoho!
 %%pic%Riaz%%Bienvenido a Whiteforge, ¿puedo tomar su pedido? Ohohoho!
 %%pic%Riaz%%Pido disculpas, señora, el nuevo decreto dice que todos los que pasen por este puesto de control deben pagarle a Riaz una tarifa de un gusano de goma agria. Oh-ho-ho!
-%%pic%Riaz%%Aquí está la tarea para calentar tu cerebro: si el tren A va hacia el oeste desde la puerta principal de Srebrograd a una velocidad de 55 millas por hora, y el tren B viaja al este desde Government Station a una velocidad de 35 millas por hora, ¿cuánto cuesta dar un consejo a Riaz por su trabajo incomparable? Oh-ho-ho!
+%%pic%Riaz%%Aquí está la tarea para calentar tu cerebro: si el tren A va hacia el oeste desde la puerta principal de Whiteforge a una velocidad de 55 millas por hora, y el tren B viaja al este desde Government Station a una velocidad de 35 millas por hora, ¿cuanto le darías de propina a Riaz por su trabajo incomparable? Oh-ho-ho!
 %%pic%Riaz%%Pi-pi-piu! No te preocupes, ¡no es lo que piensas! Bueno, sí, juego en el trabajo, pero este no es un juego violento. Simplemente disparo a estos androides con mis propios rayos buenos, que causan explosiones de felicidad. Oh-ho-ho!
 %%pic%Riaz%%Oh ... ¡Aliph! ¿Está todo bien?
 ENDSCENE
@@ -1312,7 +1312,7 @@ SCENE debrief
 // 12
 %%pic%Biggs%% %%im%%Ahora, me gustaría decirte que te tomes el resto de la semana libre, pero desafortunadamente tenemos un problema. Los otros técnicos están teniendo problemas en el viaje a las otras dos Centrales Eléctricas. Aparentemente, se han topado con calles y sumideros bloqueados a diestro y siniestro. Entre tú y yo, creo que estos dos podrían no ser tan trabajadores y persistentes como tú, Aliph. Ese tipo de personas ... a menudo no se crían con una cultura de expectativas en el hogar, ¿sabes? Pero cualquiera puede hacerlo, ¡eres una prueba viviente de eso, Aliph!
 %%pic%Biggs%% %%im%%De todos modos, tendré que pedirte que salgas mañana y ayudar a López en {G1_L} o Paxton en {G1_P}. Con suerte, podrá reunirse con ellos en la planta y trabajar para solucionarlo juntos. Con un poco de suerte, parte de su ética de trabajo podría contagiarse a ellos, ¿eh? ¡Jajaja!
-%%pic%Biggs%% %%im%%Está bien, bueno, ve a descansar un poco. Y asegúrese de registrarse cuando llegue mañana, ¿de acuerdo?
+%%pic%Biggs%% %%im%%Está bien, bueno, ve a descansar un poco. Y asegúrese de reportarse cuando llegue mañana, ¿de acuerdo?
 %%aliph%%De acuerdo, claro ... gracias, Sr. Alcalde.
 ENDSCENE
 
@@ -1354,7 +1354,7 @@ ENDMAP
 
 MAP nature_g1_2
 SCENE checkin
-%%aliph%% %%yn%Sí%2%Todavía no%1%%Hmm ... ¿es hora de registrarse?
+%%aliph%% %%yn%Sí%2%Todavía no%1%%Hmm ... ¿es hora de reportarse?
 %%aliph%%Sí ... tal vez espere un poco, primero.
 %%aliph%% %%im%%Bien entonces, será mejor que llame.
 %%aliph%% %%im%%Whiteforge, aquí Aliph, ¿me oyen?
@@ -1469,7 +1469,7 @@ SCENE debrief
 %%aliph%% %%im%%Bueno, ya me han instruido para evitar alarmar al público. Pero si voy a trabajar en estas plantas, ¡debería saber qué está pasando!
 %%speaker%g%1%% %%pic%Snickwad%% %%im%%No hay necesidad de ser conflictivo, Aliph. Simplemente estoy buscando los mejores intereses para Whiteforge.
 %%speaker%g%0%% %%pic%Biggs%% %%im%%Jajaja, ¡eso es lo que estamos haciendo todos aquí! ¡Vamos equipo! ¡Jajaja!
-%%speaker%g%0%% %%pic%Biggs%% %%im%%Ahora Aliph, hay un problema más en nuestro plan ... ¡lo adivinaste! {G1_3_T} todavía está por ahí y {G1_3} aún no se ha resuelto! Pudimos hacer contacto por radio y {G1_3_T} llegó al sitio, pero decidimos pasar la noche y trabajar mañana.
+%%speaker%g%0%% %%pic%Biggs%% %%im%%Ahora Aliph, hay un problema más en nuestro plan ... ¡lo adivinaste! {G1_3_T} todavía está por ahí y {G1_3} aún no se ha resuelto! Pudimos hacer contacto por radio y {G1_3_T} llegó al sitio, pero decidio pasar la noche y trabajar mañana.
 %%speaker%g%0%% %%pic%Biggs%% %%im%%Vamos a hacer que sigas con {G1_3_T} y veamos si puedes ayudar con las reparaciones.
 %%aliph%%Claro suena bien.
 //<If Lopez> 18
@@ -1569,7 +1569,7 @@ SCENE lyrics
 81 40 $clear
 82 0 $Para siempre
 85 10 $ tú
-86 43 $ son
+86 43 $ eres
 88 15 $ mía
 91 45 $clear
 ENDSCENE
@@ -1580,12 +1580,12 @@ ENDMAP
 
 MAP nature_g1_3
 SCENE checkin
-%%aliph%% %%yn%Sí%2%Todavía no%1%%Hmm ... ¿Debería registrarme?
+%%aliph%% %%yn%Sí%2%Todavía no%1%%Hmm ... ¿Debería reportarme?
 %%aliph%%Sí ... tal vez espere un poco, primero.
 %%aliph%% %%im%%Bien entonces, será mejor que llame.
 %%aliph%% %%im%%Whiteforge, aquí Aliph, ¿me oyen?
 %%speaker%none%% %%pic%Biggs_Radio%% %%im%%¡Alto y claro, Aliph!
-%%aliph%% %%im%%Oh, hola otra vez, Sr. Alcalde ... Estoy aquí en {G1_3}. Todavía no he visto {G1_3_T} ... espero que estén bien. Me dirijo a la planta de energía ahora.
+%%aliph%% %%im%%Oh, hola otra vez, Sr. Alcalde ... Estoy aquí en {G1_3}. Todavía no he visto a {G1_3_T} ... espero que esté bien. Me dirijo a la planta de energía ahora.
 %%speaker%none%% %%pic%Biggs_Radio%% %%im%%Suena bien, Aliph! ¡Estoy seguro de que todo estará bien con {G1_3} y encontraras a {G1_3_T}! ¡Buena suerte!
 %%aliph%%Gracias, señor alcalde. Corto y cierro.
 ENDSCENE
@@ -1629,7 +1629,7 @@ SCENE debrief
 %%speaker%g%3%% %%pic%Paxton%% %%im%%Aw, no seas un bragazas ... ¿estoy seguro de que hay un plan?
 %%speaker%g%1%% %%pic%Snickwad%% %%im%%Ahi esta. Actualmente no tenemos armas pesadas instaladas en las Plantas exteriores. Para atacar a los Geomes, necesitamos que redirigas los respiraderos de escape de la planta de energía para concentrarlos en un punto específico cerca de cada Geome. La descarga de energía debería desequilibrar la alineación de energía del Geoma y alejarlos de las plantas.
 %%speaker%g%1%% %%pic%Snickwad%% %%im%%Ve a la sala de control central y te guiaremos a través del proceso desde allí. Si bien estas plantas de energía son en su mayoría funcionales, hay algunas reparaciones que deberá hacer antes de redirigir las rejillas de ventilación.
-%%aliph%% %%im%%Bueno. Viajjaré a cada Planta,iré a la sala de control central y redirijiré las salidas de escape a los Geomes. Eso ... en realidad parece sorprendentemente factible.
+%%aliph%% %%im%%Bueno. Viajaré a cada Planta, iré a la sala de control central y redirijiré las salidas de escape a los Geomes. Eso ... en realidad parece sorprendentemente factible.
 %%speaker%g%0%% %%pic%Biggs%% %%im%%Por supuesto que es factible! ¡Has podido enfrentarte a cualquier otro desafío hasta ahora!
 %%aliph%% %%im%%Vamos a ir juntos, ¿verdad?
 %%speaker%g%3%% %%pic%Paxton%% %%im%%Tú y López deberían mantenerse unidos. Puedo manejar uno solo.
@@ -1642,7 +1642,7 @@ SCENE debrief
 %%speaker%g%3%% %%pic%Paxton%% %%im%%Bien, bien, sigamos con eso ya. Entonces, ¿hacia dónde nos dirigimos, oh Líder Magnánimo?
 %%speaker%g%0%% %%pic%Biggs%%Hastings! ¡El mapa!
 //36 <Hastings pushes over the map. goes to map screen with Mayor talking over it, giving description of each area>
-%%speaker%g%0%% %%pic%Biggs%%¡Este es Riverton! Un pueblo rústico, pequeño, a lo largo de la orilla deL río. Muy divertido para visitar con la familia!
+%%speaker%g%0%% %%pic%Biggs%%¡Este es Riverton! Un pueblo rústico, pequeño, a lo largo de la orilla del río. Muy divertido para visitar con la familia!
 %%speaker%g%0%% %%pic%Biggs%%Y este es Oscar Basin, una ciudad dentro de un valle nevado y boscoso, dirigido por el Presidente ... ¿cómo se llama? ¿Darbell Nail? Hmm ...
 //38 <Mayor always messes up Darnell Vale's name, even though Vale has worked very hard to gain the Mayor's recognition, to the detriment of his familial relationships.> He's
 %%speaker%g%0%% %%pic%Biggs%%Y por último, Magdal Woods! Un pequeño bosque brumoso, sin mucho que hacer, un poco aburrido, pero aún con una planta de energía en peligro, no obstante.
@@ -1718,7 +1718,7 @@ SCENE gate_exit
 %%aliph%% %%im%%Hmm ... supongo que soy el primero.
 %%speaker%c%0%% %%im%% %%pic%Riaz%%Oy, eres Aliph, ¿verdad?
 %%aliph%% %%im%%¡Si ese soy yo!
-%%speaker%c%0%% %%im%% %%pic%Riaz%%Maravilloso Tengo un mensaje para ti. Paxton me pidió que dijera que se había despertado temprano y decidió ir a examinar el lugar. {G2_1} para buscar cosasí.
+%%speaker%c%0%% %%im%% %%pic%Riaz%%Maravilloso Tengo un mensaje para ti. Paxton me pidió que dijera que se había despertado temprano y decidió adelantarse a {G2_1} para ir revisando las cosas.
 %%aliph%% %%im%%Hmm ... eso no está bien ... Bueno, bien, gracias por dar el mensaje.
 %%speaker%c%0%% %%im%% %%pic%Riaz%%Ciertamente.
 %%speaker%c%0%% %%im%% %%pic%Riaz%%Oy espera, eres Aliph, ¿verdad?
@@ -1744,13 +1744,13 @@ MAP g2_1
 SCENE checkin
 %%aliph%% %%im%%Whiteforge,bienvenido, este es Aliph.
 %%speaker%none%% %%pic%Biggs_Radio%% %%im%%Hola, Aliph! ¿Cómo es?
-%%aliph%% %%im%%Uh ... bueno, creo que lo hice aquí antes del asalto completo del Geome, pero en general las cosas no se ven bien. Paxton se fue temprano solo, y López tuvo una emergencia familiar que atender. Acabo de llegar a {G2_1} solo. ¿Sabías algo sobre esto?
+%%aliph%% %%im%%Uh ... bueno, creo que llegué aquí antes del asalto completo del Geome, pero en general las cosas no se ven bien. Paxton se fue temprano solo, y López tuvo una emergencia familiar que atender. Acabo de llegar a {G2_1} solo. ¿Sabías algo sobre esto?
 %%speaker%none%% %%pic%Biggs_Radio%% %%im%%Hmm ... no. Es como dije, Aliph. Estas personas no son tan confiables. ¡Pero estoy seguro de que USTED puede manejar las cosas! Recuerde, todo lo que necesita es llegar a la sala de control central y marcar algunos comandos de anulación manual cuando el Geome esté lo suficientemente cerca como para dañarlo. Pedazo de pastel!
 %%aliph%%Gracias, señor alcalde.
 // 5
 %%aliph%%Paxton está en {G2_1}, aquí no ... será mejor que regresemos más tarde.
 %%aliph%% %%yn%Sí%-1% No%-1%%¿Estoy listo para comenzar la misión?
-%%im%g2_1,checkin,0%% %%aliph%%El Geome se vislumbre en la distancia ... Será mejor que me asegure ahora.
+%%im%g2_1,checkin,0%% %%aliph%%El Geome se vislumbra en la distancia ... Será mejor que me reporte ahora.
 ENDSCENE
 
 SCENE paxton
@@ -1779,7 +1779,7 @@ SCENE end
 %%aliph%%Tengo que arreglar la planta, primero.
 %%aliph%%Bien, ahora que la Planta está reparada, necesito dirigir el flujo de energía al respiradero de escape más cercano al Geome. * tap tap tap * * beep *
 //<cutscene of the gas coming out and driving off the distant Geome while it lets out its cries>
-%%aliph%% %%im%%Whiteforge, el ... el se está retirando. Las salidas de escape funcionaron.
+%%aliph%% %%im%%Whiteforge, se... se está retirando. Las salidas de escape funcionaron.
 %%speaker%none%% %%pic%Biggs_Radio%% %%im%%Lejos, Aliph! ¡Es bueno escucharte! Regresa a casa para informar y descansar.
 %%aliph%% %%im%%Alcalde Biggs.
 %%speaker%none%% %%pic%Biggs_Radio%% %%im%%Aliph?
@@ -1798,7 +1798,7 @@ SCENE debrief
 %%speaker%g%0%% %%im%% %%pic%Biggs%%Sé que las cosas parecen negras, Aliph, y sé que estás muy desanimado. Pero primero, escúchame ...
 %%speaker%g%0%% %%im%% %%pic%Biggs%%Hay algo que debo contarte sobre los Geomes.
 %%aliph%% %%im%%¿Q-qué? ¿Sabes lo que son? ¿Por qué están atacando?
-%%speaker%g%0%% %%pic%Biggs%%Vamos a conocer al Dr. Wodsnick en el ala de Historia. Hay mucho para repasar.
+%%speaker%g%0%% %%pic%Biggs%%Vamos a reunirnos con el Dr. Wodsnick en el ala de Historia. Hay mucho para repasar.
 ENDSCENE
 
 SCENE debrief_history
@@ -1806,10 +1806,10 @@ SCENE debrief_history
 // wodsnick_1
 %%pic%Snickwad%%Como joven investigador, participé en una expedición para explorar los continentes exteriores del este. Nos impulsaba la sed de conocimiento, el deseo de ver cosas que nadie había visto antes. Y, por supuesto, trazar un camino para la futura recolección de recursos y la colonización en el caso de que la civilización de Whiteforge continuara expandiéndose a la increíble velocidad que comenzábamos a presenciar.
 // wodsnick_2 2
-%%pic%Snickwad%%Imagine nuestra sorpresa cuando encontramos los restos de una ciudad entera, casi pareciendo rivalizar con Whiteforge en su tamaño y avance tecnológico. Después de mucho estudiar, pudimos traducir groseramente el lenguaje utilizado por esta antigua civilización de pistas contextuales. Llamamos a esta civilización Karavold, aunque, por supuesto, no hay forma de saber con certeza cómo se pronunció en ese momento.
+%%pic%Snickwad%%Imagine nuestra sorpresa cuando encontramos los restos de una ciudad entera, casi pareciendo rivalizar con Whiteforge en su tamaño y avance tecnológico. Después de mucho estudiar, pudimos traducir aproximadamente el lenguaje utilizado por esta antigua civilización de pistas contextuales. Llamamos a esta civilización Karavold, aunque, por supuesto, no hay forma de saber con certeza cómo se pronunció en ese momento.
 // wodsnick_3 3
 !i %%pic%Snickwad%%En un examen minucioso, descubrimos que toda esta civilización se vio dramáticamente truncada por una sequía extraordinaria. Una sequía que golpeó al mundo entero, incluido nuestro continente occidental, según los registros de Karavoldish. El pueblo karavoldish había explorado y desarrollado algo aquí, pero cuando llegó la sequía, lo encontraron tan seco como su propio hogar.
-!i %%pic%Snickwad%%Las implicaciones de esta sequía mundial fueron asombrosas, y confirmadas por investigaciones posteriores ...
+!i %%pic%Snickwad%%Las implicaciones de esta sequía mundial fueron devastadoras, y confirmadas por investigaciones posteriores ...
 %%pic%Snickwad%%Karavold no era meramente "antiguo" como nuestros antepasados, sino que existió mucho antes en un mundo casi completamente separado, antes de que la Gran Sequía esencialmente limpiara el mundo. Se construyó una civilización completa, y luego el mundo se reinició ... todo comenzó de la nada.
 // wodsnick_4 6
 !i %%pic%Snickwad%%Aún más impactantes fueron los registros arqueológicos que encontramos y traducimos en Karavold. Alrededor de la época de la sequía, habían experimentado una revelación bastante paralela a la nuestra: otra civilización, aún más antigua, había sido consumida completamente por un Gran Diluvio.
@@ -1821,7 +1821,7 @@ SCENE debrief_history
 !i %%aliph%%Esto ... ¡esto es increíble! ¿Los Geomes están aquí para traer el apocalipsis?
 !i %%pic%Biggs%%Aliph ... ahora ves por qué es tan importante continuar. ¡Por qué no debes rendirte! ¡Cassidy y Paxton sacrificaron sus vidas por esta causa! ¡Debemos vengar sus muertes y salvar a toda la humanidad!
 !i %%aliph%%Espera, ¿entonces Paxton y Cassidy sabían sobre esto?
-!i %%pic%Biggs%%Bueno no exactamente. No dijimos nada porque todavía no estábamos seguros de que esto estuviera sucediendo. Hay mucho que aún no sabemos sobre los Geomes. Pero ahora nos queda claro que las señales están aquí. Por supuesto, esperábamos que la civilización anterior estuviera equivocada ... pero los signos están aquí. De todos modos, debemos prevalecer ... ¡es la única opción que tenemos!
+!i %%pic%Biggs%%Bueno no exactamente. No dijimos nada porque todavía no estábamos seguros de que esto estuviera sucediendo. Hay mucho que aún no sabemos sobre los Geomes. Pero ahora nos queda claro que las señales están aquí. Por supuesto, esperábamos que la civilizaciónes anteriores estuvieran equivocadas ... pero los signos están aquí. De todos modos, debemos prevalecer ... ¡es la única opción que tenemos!
 !i %%aliph%%Entonces ... ¿qué ... qué hago?
 !i %%pic%Biggs%%Continúa el trabajo, Aliph. Expulsa a los Geomes de nuestras plantas. Necesitaremos toda la energía que podamos almacenar para alimentar los cañones centrales en Whiteforge. Con todas nuestras plantas bombeando energía simultáneamente, los láseres deberían tener suficiente poder para destruir los Geomes. Es nuestra única esperanza. Si alejas a los Geomes de las Plantas exteriores, predecimos que atacarán a Whiteforge, ¡y aquí mantendremos nuestra posición final y los destruiremos de una vez por todas!
 !i %%aliph%%Entonces ... solo necesito continuar ...
@@ -1829,7 +1829,7 @@ SCENE debrief_history
 !i %%aliph%%Estoy bien. Yo puedo hacerlo. ¡Debo hacerlo!
 !i %%pic%Biggs%%¡Lo sabía! ¡Sabía que tenía razón al poner mi fe en ti, Aliph! Has soportado esta carga mas de lo que nadie debería soportar, pero siempre has aceptado el desafío. Estoy muy orgulloso de ti, Aliph.
 !i %%aliph%%... Gracias, Alcalde Biggs.
-!i %%pic%Biggs%%Es suficiente charla por ahora. Necesitas un descanso Hablando de eso ... buscame en Windsweep Towers más tarde, en el distrito comercial. Tengo algo que quiero mostrarte.
+!i %%pic%Biggs%%Es suficiente charla por ahora. Necesitas un descanso. Por cierto... buscame en Windsweep Towers más tarde, en el distrito comercial. Tengo algo que quiero mostrarte.
 %%aliph%%Oh! Bueno
 ENDSCENE
 
@@ -1842,7 +1842,7 @@ SCENE hi_res
 %%speaker%g%0%% %%pic%Biggs%% %%im%%Ha!
 %%speaker%g%0%% %%pic%Biggs%% %%im%%Buena, Aliph!
 %%aliph%% %%im%%Huh?
-%%speaker%g%0%% %%pic%Biggs%% %%im%%¡Esta es tu casa! ¡Lo escogí mientras no estabas!
+%%speaker%g%0%% %%pic%Biggs%% %%im%%¡Esta es tu casa! ¡La escogí mientras no estabas!
 %%aliph%% %%im%%¿¿Mi casa??
 %%speaker%g%0%% %%pic%Biggs%% %%im%%Después de todo lo que has hecho por la Ciudad ... es lo mínimo que podemos hacer.
 %%aliph%% %%im%%W-wow ... muchas gracias, Sr. Alcalde.
@@ -1853,7 +1853,7 @@ SCENE cant_enter_home
 %%aliph%%Ya no vivo aquí.
 %%aliph%%El alcalde Biggs dijo que estaría dentro.
 %%aliph%%Bueno, aquí está mi casa ...
-%%aliph%%Es mi antigua casa. Se ve tan pintoresco ...
+%%aliph%%Es mi antigua casa. Se ve tan pintoresca ...
 ENDSCENE
 
 SCENE yara_defaults
@@ -1884,7 +1884,7 @@ ENDSCENE
 SCENE yara
 %%speaker%g%0%% %%im%% %%pic%Yara%%¡Por supuesto! Antes de entrar ... ¿has conocido a Humus?
 %%aliph%% %%im%%¿Humus? Oh sí, nos encontramos el otro día en Apex Plaza. Hubo algo de confusión. La gente estaba molesta porque pensaban que Humus era un vagabundo o mendigo o algo por el estilo.
-%%speaker%g%0%% %%im%% %%pic%Yara%%Sí ... bueno ... Invité a Humus a quedarse conmigo por el momento. ¡Jaja! Sé que es un poco raro, pero no creo que tengan un lugar donde quedarse y ...
+%%speaker%g%0%% %%im%% %%pic%Yara%%Sí ... bueno ... Invité a Humus a quedarse conmigo por el momento. ¡Jaja! Sé que es un poco raro, pero no creo que tenga un lugar donde quedarse y ...
 %%aliph%%No, lo entiendo! Humus parece ... seguro, al menos. Y es bueno no estar solo.
 ENDSCENE
 
@@ -1893,7 +1893,7 @@ SCENE yara_in
 %%pic%Aliph%% %%speaker%none%%Consideré no decirle a Yara sobre cómo los Geomes están aquí para destruir el mundo tal como lo conocemos. Pero ... sabía que Yara no se asustaría. Entonces le conté todo.
 // 1
 %%speaker%g%0%% %%im%% %%pic%Yara%%Entonces es el fin del mundo, ¿eh?
-%%aliph%% %%im%%¡No, no es! Solo necesitamos atraer al Geomes aquí una vez que las armas estén listas. ¡Aún podemos proteger a la humanidad! ¡Podemos preservar nuestra forma de vida!
+%%aliph%% %%im%%¡No, no es! Solo necesitamos atraer al los Geomes aquí una vez que las armas estén listas. ¡Aún podemos proteger a la humanidad! ¡Podemos preservar nuestra forma de vida!
 %%speaker%g%0%% %%im%% %%pic%Yara%%Oh. Sí. Nuestro modo de vida.
 %%aliph%% %%im%%Tengo que hacer esto ... Tengo que luchar contra los Geomes. Por Paxton. Por ... por Cassidy.
 %%speaker%g%0%% %%im%% %%pic%Yara%%Cassidy nunca supo sobre todo esto.
@@ -1988,7 +1988,7 @@ SCENE end
 %%im%% %%speaker%none%%*crr*{SOUND,radio_crr.wav}
 %%im%% %%aliph%%¿Hola? ¿Hola? ¿Alcalde?
 %%im%% %%speaker%none%%.{WAIT,0.5}.{WAIT,0.5}. {WAIT,0.5}{SOUND,radio_crr.wav}...
-%%im%% %%aliph%%¿¿Alcalde?? ¿Que esta pasando? ¿Ya estáno atacando Whiteforge?
+%%im%% %%aliph%%¿¿Alcalde?? ¿Que esta pasando? ¿Ya están atacando Whiteforge?
 %%im%% %%speaker%none%%{SOUND,hangup.wav}*click*
 %%aliph%%Será mejor que me apresure a regresar.
 //<cut to the overworld. A sprite of the Geome is moving towards the city. You have to go to the city as well (the Geome will get there first, even if you go straight there)>
@@ -2136,22 +2136,22 @@ ENDSCENE
 SCENE crowd
 //<The next main thing to do is to go near the garden, where people are crowded around Humus. Aliph isn't onscreen yet>
 %%pic%Dave%% %%speaker%g%2%% %%im%%¡Ese espeluznante vagabundo llegó a la ciudad justo cuando las cosas empezaban a pudrirse por aquí!
-%%pic%Ronald%% %%speaker%g%3%% %%im%%Sí, justo cuando aparecierón los Geomes, también este ... ¡esto! Y cuando atacaron?Justo cuando ocurrió estaba en la seguridad de este jardín ... ¡del cual e osGeomes parecía haberse alejado!
+%%pic%Ronald%% %%speaker%g%3%% %%im%%Sí, justo cuando aparecierón los Geomes, también este ... ¡esto! Y cuando atacaron? Justo cuando ocurrió estaba en la seguridad de este jardín... ¡del cual los Geomes parecían quedarse alejados!
 %%pic%Yara%% %%speaker%g%0%% %%im%%Este es mi jardín! ¡Humus no tiene nada que ver con eso! ¡Es probablemente una coincidencia que el jardín no fuera atacado! He estado cerca de Humus todo este tiempo, y no han contactado al Geomes en Whiteforge, ¡si eso es lo que dices!
 %%pic%Maude%% %%speaker%g%4%% %%im%%Escucha, Yara, entiendo que quieras lo mejor, pero ahora te has metido en algo que ni siquiera conoces. ¡Invitaste a una persona muy mala a tu casa! ¡Nos preocupamos por ti!
-%%pic%Ronald%% %%speaker%g%3%% %%im%%Sí, déjanos ayudarte! ¡Este terrorista debe ser llevado ante la justicia! Vamos, solo mira le! ¡Este personaje grita "sospechoso"! ¡En serio! ¡Tendrías que ser ciego para no verlo!
+%%pic%Ronald%% %%speaker%g%3%% %%im%%Sí, déjanos ayudarte! ¡Este terrorista debe ser llevado ante la justicia! Vamos, solo mirale! ¡Este personaje grita "sospechoso"! ¡En serio! ¡Tendrías que ser ciego para no verlo!
 %%pic%Yara%% %%speaker%g%0%% %%im%%¡Púdrete! ¡Humus no hizo nada malo! ¡Conozco a Humus! ¡Soy el único que lo conoce aquí!
 %%pic%Dave%% %%speaker%g%2%% %%im%%Ja! Entonces, ¿debemos confiar en TI? Cassidy era un miembro respetado de la comunidad, ¡hasta que tu influencia la arruinó!
 %%pic%Yara%% %%speaker%g%0%% %%im%%¡Cállate! ¡No sabes! ¡No puedes hablarme así! ¡Ayudé a Cassidy! ¡Ella me dijo que la ayudé a encontrarse!
 %%pic%Dave%% %%speaker%g%2%% %%im%%Cassidy tenía una alta posición, una oficina, limpieza, seguridad. No necesitaba hacer ... un peligroso trabajo de campo.
-%%pic%Yara%% %%speaker%g%0%%H-¿Cómo te atreves a decir eso! ¡Cassidy fue transferida al departamento técnico debido a personas como usted, funcionarios de Apex que pensaban que era una bicho raro! ¡No te atrevas a insinuar que lo que le sucedió fue culpa mía!
+%%pic%Yara%% %%speaker%g%0%%H-¿Cómo te atreves a decir eso! ¡Cassidy fue transferida al departamento técnico debido a personas como usted, funcionarios de Apex que pensaban que era un bicho raro! ¡No te atrevas a insinuar que lo que le sucedió fue culpa mía!
 //<slumping down. Aliph runs up> 10
 %%aliph%% %%im%%¡Oye! ¿Que está pasando aqui? Yara, ¿estás bien?
 %%pic%Yara%% %%speaker%g%0%% %%im%%Aliph ... quieren llevarse a Humus ...
 %%pic%Dave%% %%speaker%g%2%% %%im%%Ah, Aliph. Puedes ser razonable, ¿verdad?
 %%pic%Ronald%% %%speaker%g%3%% %%im%%Este personaje "Humus" tiene que tener algo que ver con el ataque de el Geome, ¡esta claro como el día! No estamos buscando sangre, ¡solo nos preocupa la seguridad de todos!
 %%pic%Maude%% %%speaker%g%4%% %%im%%¡Debería ser encerrado y procesado!
-%%pic%Dave%% %%speaker%g%2%%Eres amigo de ella, ¿verdad? Hablacon ella para que entre en razón.
+%%pic%Dave%% %%speaker%g%2%%Eres amigo de ella, ¿verdad? Habla con ella para que entre en razón.
 //<Aliph approaches Yara> 16
 %%aliph%% %%im%%Oye. ¿Qué debemos hacer?
 %%pic%Yara%% %%speaker%g%0%% %%im%%* sniff * No sé, eres el "razonable", dime.
@@ -3280,7 +3280,7 @@ SCENE wes
 //<pan to kaki on the 2nd floor>
 !i %%speaker%none%% %%pic%Kaki%%{PAN, 0,0.75,280,250}*asiente*{WAIT, 2.0}\n ...
 !i %%pic%Wes%%Ojalá mi marido o yo supiéramos más acerca de la planta de energía. Es realmente una especie de coincidencia que nos hayamos convertido en los principales contactos locales.
-%%pic%Wes%%Debe encontrar extraño que haya una biblioteca pública aquí en el medio de la nada. Después de todo, las bibliotecas están pensadas para que la gente las disfrute.Solía ​​haber una comunidad más grande aquí en estos bosques, pero la población se desplazó hacia entornos más industrializados. Tal vez deberíamos habernos movido con ellos, pero en este momento ... siento que esta biblioteca es parte del bosque. No sé si podría ser trasplantado. Tenemos un programa de préstamo interbibliotecario y el edificio en sí sigue siendo frecuentado por aquellos amantes de los libros y un poco aficionados a la aventura. Pero no puedo culparte si crees que deberíamos estar haciendo más con lo que tenemos.
+%%pic%Wes%%Debe encontrar extraño que haya una biblioteca pública aquí en el medio de la nada. Después de todo, las bibliotecas están pensadas para que la gente las disfrute. Solía ​​haber una comunidad más grande aquí en estos bosques, pero la población se desplazó hacia entornos más industrializados. Tal vez deberíamos habernos movido con ellos, pero en este momento ... siento que esta biblioteca es parte del bosque. No sé si podría ser trasplantado. Tenemos un programa de préstamo interbibliotecario y el edificio en sí sigue siendo frecuentado por aquellos amantes de los libros y un poco aficionados a la aventura. Pero no puedo culparte si crees que deberíamos estar haciendo más con lo que tenemos.
 //<talk again>
 %%pic%Wes%% %%yn%La biblioteca?%6%La Planta?%8%%¿Qué puedo hacer por ti?
 !i %%pic%Wes%%Esta biblioteca es muy importante para mí. Fue aquí, como un joven aterrorizado y desesperado, cuando encontré nuevas historias para albergar mi alma. Me mantuvieron a salvo y me permitieron pertenecer a un mundo que, pensé, no tenía lugar para mí.
@@ -3299,7 +3299,7 @@ MAP forest
 // <At the elevator, the only way to the station entrance through a dangerous set of fallen wires.>
 
 SCENE aliph_lift
-%%aliph%% %%set_state%1%1%%Veamos, dice "Gire la llave para activar el ascensor". Pero ... ¡No veo la llave aquí en ninguna parte! Es gracioso, el presidente Vale dijo que se suponía que debía estar aquí.Será mejor que vaya a buscarlo y ver si sabe lo que está pasando.
+%%aliph%% %%set_state%1%1%%Veamos, dice "Gire la llave para activar el ascensor". Pero ... ¡No veo la llave aquí en ninguna parte! Es gracioso, el presidente Vale dijo que se suponía que debía estar aquí. Será mejor que vaya a buscarlo y ver si sabe lo que está pasando.
 %%aliph%%Ahora que el vidrio está roto, no es seguro pasar por aqui. Necesitaré encontrar algún tipo de protección.
 %%aliph%% %%yn%Sí%-1%No%-1%%¿Debo tomar este ascensor?
 %%speaker%none%% %%name%Firme%%Advertencia! Gas peligroso debajo. Asegúrese de que el elevador esté sellado de forma segura antes de entrar a la planta de energía.
@@ -3311,7 +3311,7 @@ SCENE dolly_gate
 %%aliph%%¿Hay alguien en la puerta?
 !i %%aliph%%¡Oye! ¡Espera! ¿Puedes abrir esa puerta de seguridad? ¡Necesito pasar!
 !i %%aliph%%...
-%%aliph%%¿Para que era eso?
+%%aliph%%¿Porque hizo eso?
 ENDSCENE
 
 //<you can talk to Vale right there in the square, or you can leave and come back and he will be in his office, adjacent to the square>
@@ -3328,7 +3328,7 @@ SCENE vale_2
 ENDSCENE
 
 SCENE vale_3
-%%speaker%g%3%% %%pic%Vale%% %%yn%Cuéntame acerca de Oscar Basin%1%Cuéntame sobre ti%2%Había una chica que intentó detenerme ...%3%Llave del ascensor?%4:s1:forest, aliph_lift%No importa%-1%%Lo que sea lo necesitas, Aliph?
+%%speaker%g%3%% %%pic%Vale%% %%yn%Cuéntame acerca de Oscar Basin%1%Cuéntame sobre ti%2%Había una chica que intentó detenerme ...%3%Llave del ascensor?%4:s1:forest,aliph_lift%No importa%-1%%Necesitas algo Aliph?
 %%speaker%g%3%% %%pic%Vale%%Oscar Basin Township fue fundado hace muchas generaciones por personas que valoraban el pensamiento positivo y una buena sonrisa. Hace 4 años, también nos convertimos en los cuidadores de una nueva planta de energía de Herald Industries, que inició una era de prosperidad y buena voluntad entre nuestros ciudadanos que continúa hasta nuestros días. Además, televisores gratis para todos, ¡je, je!
 %%speaker%g%3%% %%pic%Vale%%Bueno, he sido el presidente aquí durante los últimos 6 años. Seguro que me encanta servir a la gente de Oscar Basin ... pero no te aburriré con los detalles administrativos, ¡je, je!
 //At end, whistles a tune
@@ -3360,7 +3360,7 @@ ignore
 ENDSCENE
 
 SCENE edith
-%%pic%Edith%% %%im%%Bueno, ¡Dios mío! ¡Estás un poco asediado! ¡Solo tengo una cosa! Aplica esta crema alrededor de tus ojos. Hace furor en la ciudad de Whiteforge en estos días. ¡Eso lo arreglará! Ah, y recuerda, tu sonrisa es tu mejor característica. ¡Déjame verlo!
+%%pic%Edith%% %%im%%Bueno, ¡Dios mío! ¡Te vez un poco agotada! ¡Tengo justo lo que necesitas! Aplica esta crema alrededor de tus ojos. Hace furor en la ciudad de Whiteforge en estos días. ¡Eso lo arreglará! Ah, y recuerda, tu sonrisa es tu mejor característica. ¡Déjame verla!
 %%im%% %%aliph%%Umm ... *sonríe*
 %%pic%Edith%%¿Cómo podría resistir cualquier hombre?
 %%skip_if%s%1%0%forest%edith%0%forest%aliph_lift%% %%pic%Edith%%Llave del ascenso? ¡No estoy seguro de lo que quieres decir! Pero sí sé que la "clave" para "levantar" tu espíritu es cantar una cancioncilla.
@@ -3378,9 +3378,9 @@ ENDSCENE
 
 SCENE neighbors
 !i %%pic%Carl%%Hola, Hank, ¿vienes a jugar más tarde?
-!i %%pic%Hank%%¡Lo tienes Carl! ¡No te perderás el cocido de judías de tu esposa! ¡Ho Ho Ho!
-!i %%pic%Carl%%De ninguna manera, Hank! ¡Hay una moratoria indefinida para ti y el cocido de judias! Nunca presencié una magnitud de gas tan grande como la última vez que bebiste la vieja Diptastrophe de siete capas. ¡Y eso está diciendo algo, viniendo de un residente de Oscar Basin! Harharhar!
-%%pic%Hank%% %%yn%¿Oscar Basin?%4%¿Llave del ascensor?%8:s1:forest, aliph_lift%No importa%-1%%Oh, oye, ¿hay algo que podamos hacer por ti, jovencita?
+!i %%pic%Hank%%¡Lo sabes Carl! ¡No te perderás el cocido de judías de tu esposa! ¡Ho Ho Ho!
+!i %%pic%Carl%%De ninguna manera, Hank! ¡Hay una moratoria indefinida para ti y el cocido de judias! Nunca presencié una magnitud de gas tan grande como la última vez que te tragaste la vieja Diptastrophe de siete capas. ¡Y eso es decir algo, viniendo de un residente de Oscar Basin! Harharhar!
+%%pic%Hank%% %%yn%¿Oscar Basin?%4%¿Llave del ascensor?%8:s1:forest,aliph_lift%No importa%-1%%Oh, oye, ¿hay algo que podamos hacer por ti, jovencita?
 // 4
 !i %%pic%Hank%%Oscar Basin ... excelentes vistas, gente genial, ¿qué puedo decir? Tenemos nuestras cosas! ¡Jojojo!
 !i %%pic%Carl%%¡Bien, estamos seguros de que pateamos muchas más que los Riverton Racers! Jajajaja!
@@ -3433,7 +3433,7 @@ SCENE basin_sign
 ENDSCENE
 
 SCENE tracy
-%%pic%Tracy%% %%yn%¿Llave del ascensor?%1:s1:forest,vale_3%Dolly?%12:s1:forest,trac%¿Cómo está Oscar Basin?%18%No importa%-1%%¡Oh, um hola!
+%%pic%Tracy%% %%yn%¿Llave del ascensor?%1:s1:forest,vale_3%Dolly?%12:s1:forest,tracy%¿Cómo está Oscar Basin?%18%No importa%-1%%¡Oh, um hola!
 %%im%% %%set_state%1%1%% %%pic%Tracy%%¡La... la llave del ascensor?¡Se ha perdido? Um, que raro, eh. ¡No sé nada de eso!
 %%im%% %%pic%Aliph%% %%speaker%p%%¿Estás seguro? Es realmente importante que llegue a la estación. ¡Esa criatura podría atacar el asentamiento luego!
 %%im%% %%pic%Tracy%%Yo…hum…
@@ -3484,12 +3484,12 @@ ENDSCENE
 //<entering the town square, welcome song is played. main melody is hummed later to dolly. Chairman Vale and musicians are there. Dolores interrupts with a smoke bomb and leaves, the music fizzles out in mid-song.
 SCENE enter_town
 %%im%% %%set_state%1%1%% %%speaker%g%3%% %%pic%Vale%%Oh - Hola - ¡Dolly! ...
-%%speaker%g%3%% %%pic%Vale%% Je je je, ¡bueno Dolly! Sí, los tienes bien! Je je je.
+%%speaker%g%3%% %%pic%Vale%% Je je je, ¡buena Dolly! Que susto nos diste! Je je je.
 %%im%% %%speaker%g%3%% %%pic%Vale%%Bueno, debes ser Aliph! Espero que haya disfrutado de nuestra pequeña canción de bienvenida, ¡a pesar de la interrupción! ¡Soy el presidente Darnell Vale, y en nombre de los ciudadanos del satélite Oscar Basin, me gustaría darle la bienvenida a nuestro humilde municipio! ¡Simplemente nos ha impresionado que hayas elegido la planta de energía de Oscar Basin como el próximo sitio de tu importante ingeniería de mantenimiento!
 %%im%% %%aliph%%Oh ... eh, gracias, sí!
 %%im%% %%speaker%g%3%% %%pic%Vale%%Estoy seguro de que encontrarás a Oscar Basin como un lugar agradable y satisfactorio para trabajar. ¡Sé que ciertamente lo somos! Je je je! Como habrás visto, ¡estamos siendo atacados por un gran monstruo! ¡No debería ser un problema para un experimentado profesional como tú! El Alcalde nos dice que eres su principal agente, ¡je, je!
 %%im%% %%aliph%%Haré lo que pueda. Necesito llegar al núcleo, ejecutar algunos diagnósticos y correcciones, luego debería poder expulsar a la criatura redirigiendo algunos de los respiraderos de escape de la estación.
-%%pic%Vale%% %%speaker%g%3%%Ciertamente. ¡Avíseme si hay algo que podamos hacer para ayudar! La entrada a la planta de energía se encuentra en la parte inferior de Oscar Basin, y hay un ascensor que conduce directamente al interior. La llave de activación del ascensor debería estar simplemente en la cerradura ... ¡No nos preocupan demasiado por los vándalos aquí en Oscar Basin!
+%%pic%Vale%% %%speaker%g%3%%Ciertamente. ¡Avíseme si hay algo que podamos hacer para ayudar! La entrada a la planta de energía se encuentra en la parte inferior de Oscar Basin, y hay un ascensor que conduce directamente al interior. La llave de activación del ascensor debería estar simplemente en la cerradura ... ¡No nos preocupan demasiado los vándalos aquí en Oscar Basin!
 ENDSCENE
 
 // <if you talk to any musician this whole sequence commences>
@@ -3575,7 +3575,7 @@ ENDSCENE
 
 SCENE post_office
 //Post Office
-%%pic%Stamp%% %%yn%Portero?%2:s1:river, jr_1%Tablero de mensajes?%1%Chat%3%No importa%-1%% ¡Debes ser el técnico de la ciudad, para eliminar la criatura Geome! Bienvenido a la oficina de correos de Riverton! Aquí nos ocupamos de todos los mensajes. Los mensajes permiten una comunicación rápida entre Riverton y las tierras de cultivo de los alrededores. ¡Es un servicio muy importante! ¿Necesitas enviar un mensaje?
+%%pic%Stamp%% %%yn%Portero?%2:s1:river,jr_1%Tablero de mensajes?%1%Hablemos%3%No importa%-1%%¡Debes ser el técnico de la ciudad, para eliminar la criatura Geome! Bienvenido a la oficina de correos de Riverton! Aquí nos ocupamos de todos los mensajes. Los mensajes permiten una comunicación rápida entre Riverton y las tierras de cultivo de los alrededores. ¡Es un servicio muy importante! ¿Necesitas enviar un mensaje?
 %%pic%Stamp%%A veces las personas no envían mensajes a nadie en particular. Los mensajes se pegan en el Tablero de mensajes.
 %%pic%Stamp%% %%set_state%1%1%river%post_office%%Entiendo, enviaremos un mensaje al portero Rosso de inmediato. ¿Por qué no vuelves y esperas a la puerta?
 %%pic%Stamp%%Trabajando aquí, veo que todos los mensajes que van y vienen. Realmente puede llegar a intuir mucho sobre las personas por sus hábitos de correo. ¡Sin embargo, nunca lo revelaré!
@@ -3726,7 +3726,7 @@ ENDSCENE
 
 SCENE trophy_1
 %%pic%Chisa%%%%yn%¿De quién son los trofeos?%1%¿Dónde están tus padres?%2%No importa%-1%%¡Hola, señorita! (Los ojos se van hacia los trofeos).
-%%pic%Chisa%%Son mís trofeos El maestro de mi clase dice que soy el mejor en natación, levantamiento de pesas, creación de proyectos en competiciones científicas, competiciones matemáticas, cocinero, recaudando fondos para personas necesitadas, pruebas de historia, ingeniero del club de robótica, pintor y escultor del club de arte!
+%%pic%Chisa%%Son mís trofeos El maestro de mi clase dice que soy el mejor en natación, levantamiento de pesas, creación de proyectos en competencias científicas, competencias matemáticas, cocinero, recaudando fondos para personas necesitadas, pruebas de historia, ingeniero del club de robótica, pintor y escultor del club de arte!
 %%pic%Chisa%%Están en el trabajo. Mezura mirame. ¿Sabías que mi mamá y papá hacen los trofeos?
 ENDSCENE
 
@@ -3998,7 +3998,7 @@ ENDSCENE
 
 SCENE moonderful_second
 // A appears until you do it, B if talked to dreamer, C/D if seen A, E always there, F never mind
-%%pic%Moonderful%%%%yn%Cuéntame sobre la destrucción%%Cuéntame sobre el Mármol rojo esmeralda%2:s1:cañón,didney%Cuéntame sobre cocido Dreamdram%3%No importa%-1%%¡Oh, Aliph! ¿Qué puedo hacer por ti?
+%%pic%Moonderful%%%%yn%Cuéntame sobre la destrucción%1%Cuéntame sobre el Mármol rojo esmeralda%2:s1:canyon,didney%Cuéntame sobre cocido Dreamdram%3%No importa%-1%%¡Oh, Aliph! ¿Qué puedo hacer por ti?
 %%pic%Moonderful%%Justo antes del mal funcionamiento de la planta de energía, una criatura alada enorme y hermosa apareció y se posó en lo alto del cañón. Criaturas más pequeñas como esporas salieron de ella y volaron hacia dentro de la planta de energía.
 %%pic%Moonderful%%¿El mármol rojo esmeralda? Todo un artefacto extraño. ¡El Mármol Rojo Esmeralda le permitió a su portador hablar y tocar los sueños! No se ha visto por aquí desde hace bastante tiempo ... probablemente sea lo mejor.
 %%pic%Moonderful%%El cocido de Dreamdram Hollow intensifica las visiones del soñador. Para aquellos con sueños tranquilos, para aquellos que buscan un nuevo camino ... a veces los sueños son el impulso que necesitamos para imaginar una nueva realidad para nosotros mismos. Nos pueden ayudar a recordar cuán maleable y frágil es realmente nuestra realidad compartida.
@@ -4027,7 +4027,7 @@ SCENE rock
 ENDSCENE
 
 SCENE war
-%%name%Lt. Locke%%¡Dale a probar el auto, en privado!
+%%name%Lt. Locke%%¡Dale a probar la automatica, Soldado!
 //Gonna lob a 'bluey 10 o'clock!!
 %%name%Lt. Locke%%¡Bajaremos a pelear, y la historia recordará nuestros nombres!
 ENDSCENE
@@ -4301,7 +4301,7 @@ SCENE storeroom_inside
 !i %%pic%Bay%% %%speaker%g%0%%Trent!!
 !i %%pic%Trent%% %%speaker%g%1%%Lo siento, Bay! ¡Realmente soy! Fue un accidente, ¡no lo sabía!
 !i %%pic%Bay%% %%speaker%g%0%%Bueno, ¿sabes lo que SÍ sabes? ¡SABES que nuestros cultivos son importantes para mí! SABES que no me gustan tus pinceles en el soporte del cepillo de dientes. SABES que los jueves por la noche son noches de estrellas. Los accidentes son accidentes, seguro, pero en cierto punto, es evidente que ya no te importa.
-!i %%pic%Trent%% %%speaker%g%1%%... Yo ... No tenía idea de que todo esto estaba pasando por tu cabezai. Sabía que estaba olvidando cosas aquí y allá, pero has estado tan frío últimamente. Pensé que no querías estar cerca de mí ... que estabas cansado de mis demostraciones de afecto. Es por eso que he estado tan absorto en mi trabajo.
+!i %%pic%Trent%% %%speaker%g%1%%... Yo ... No tenía idea de que todo esto estaba pasando por tu cabeza. Sabía que estaba olvidando cosas aquí y allá, pero has estado tan frío últimamente. Pensé que no querías estar cerca de mí ... que estabas cansado de mis demostraciones de afecto. Es por eso que he estado tan absorto en mi trabajo.
 !i %%pic%Bay%% %%speaker%g%0%%Asi que. Me volví más un ermitaño, y tuviste tu cabeza cada vez más en una nube. Nos propusimos ser más como el uno para el otro ... pero tal vez estar el uno con el otro nos permitió ser cada vez más como nosotros mismos.
 !i %%pic%Vera%%¡Uf! Esto está yendo a algún lado. Estaba aterrorizado de que no fuera así.
 !i %%pic%Bay%% %%speaker%g%0%%Vera!
@@ -4318,7 +4318,7 @@ SCENE storeroom_trent
 ENDSCENE
 
 SCENE storeroom_vera
-!i %%pic%Vera%%Hola cariño. ¡Gracias por tu ayuda! Sivuelves por este túnel, debe salir cerca de la entrada de la Planta. Y ... ¡ten mucho cuidado!
+!i %%pic%Vera%%Hola cariño. ¡Gracias por tu ayuda! Si vuelves por este túnel, debe salir cerca de la entrada de la Planta. Y ... ¡ten mucho cuidado!
 !i %%aliph%%¿Huh?
 !i %%pic%Vera%%Con todo lo que ha estado sucediendo, olvidé mencionar algo. El otro día, a menos que mis ojos me engañaran, ¡creo que vi una especie de criatura en la distancia! Parecía salvaje, lo sé, pero creo que tuvo algo que ver con el fallo de la planta de energía. Así ... mantente atento y vuelve de una sola pieza, ¿de acuerdo? Recuerda, ¡tu vida es más importante que tu trabajo!
 %%aliph%%Hmm ... ¡gracias por el aviso!
@@ -4335,7 +4335,7 @@ ENDSCENE
 
 # <above where you get to after getting rid of the bugs>
 SCENE shantel
-%%pic%Shantel%% %%yn%Er ... si. Era necesario.%1%No, era un payaso.%2%Vaya ... un clima agradable, ¿no?%3%%AH ... AH ... ¡ACHOO! H-hey! ¿Lo que da? Vine aquí para evitar el viento pero ahora también hace viento aquí. ¡No hay nada peor para mis alergias que el viento revolviendo el polen! ¿Comienza la levantarse este viento, anaranjado?
+%%pic%Shantel%% %%yn%Er ... si. Era necesario.%1%No, fue el payaso.%2%Vaya ... un clima agradable, ¿no?%3%%AH ... AH ... ¡ACHOO! H-hey! ¿Que pasó? Vine aquí para evitar el viento pero ahora también hace viento aquí. ¡No hay nada peor para mis alergias que el viento revolviendo el polen! ¿Causaste tú este viento, anaranjado?
 %%pic%Shantel%% ¡Qué más se necesita! ¡ACHOOI! ¡Es tan necesario como mi puño en tu cara si me preguntas! ¡Ahora tengo que buscar otro lugar, tu cabeza de calabaza sin cerebro!
 %%pic%Shantel%% Ah ... A ... ¿Payaso, entonces? Bueno, ahora esta carita divertida escuchará todo lo que pienso al respecto, ¡puedes estar seguro! ¡ACHOOI!
 %%pic%Shantel%% ¿Ahora que? ¿Has estado escuchando una palabra de lo que estoy diciendo? ¡El clima es la razón por la que estoy enojado, cono de tráfico! ACHOO!
@@ -4345,7 +4345,7 @@ ENDSCENE
 
 # <has access to the fan controls. lot of scripting for this, but don't do it in any detail until we have the whole scene and animations pinned down> #
 SCENE wilbert_init
-%%skip_if%dirty%*%*%hill%wilbert%0%% %%aliph%% %%im%%Hmm ... parece que esa persona de allí podría controlar a los ventiladores. Hola por allí!
+%%skip_if%dirty%*%*%hill%wilbert%0%% %%aliph%% %%im%%Hmm ... parece que esa persona de allí podría encender el ventilador. Hola por allí!
 %%im%% %%pic%Wilbert%%Eh?
 %%im%% %%aliph%% Hola, mi nombre es Aliph y yo--
 %%im%% %%pic%Wilbert%%OH. Tu nombre es "ALIPH" ¿eh? Apuesto a que estás muy feliz por eso, ¿eh? Muy buen nombre, ¿eh? Bueno, ALIPH, ¿puedes probar para un circo EN VIVO? ¿Bien? ¿Huh? ¿¿¿Puedes???
@@ -4361,16 +4361,16 @@ SCENE wilbert
 // Can I tell u secret if (hill-wilbert = 0) ->  7
 // bugs -> 3
 // anything 2 alk -> 4
-%%skip_if%s%1%1%*%*%1%% %%yn%¿Puedes encender el ventilador por favor?%2:s1:hill,wilbert:0%Los errores por aquí son salvajes, ¿eh?%3%¿Hay algo de lo que quieras hablar?%4%¿Puedo contarte un secreto?%7:s1:hill,wilbert:0%No importa%-1%% %%pic%Wilbert%%¡BIEN! Después de todo lo que me has dicho, ¡mira quién vuelve pidiendo MI ayuda! ¡Tienes un poco de nervios, ALIPH, el REPARADOR DE LA PLANTA DE ENERGÍA!
-%%yn%Los errores por aquí son salvajes, ¿eh?%3%¿Hay algo de lo que te gustaría hablar?%4%%%%pic%Wilbert%%¿Qué es gracioso en la otra cara, ALIPH?
+%%skip_if%s%1%1%*%*%1%% %%yn%¿Puedes encender el ventilador por favor?%2:s1:hill,wilbert:0%Los insectos por aquí son salvajes, ¿eh?%3%¿Hay algo de lo que quieras hablar?%4%¿Puedo contarte un secreto?%7:s1:hill,wilbert:0%No importa%-1%% %%pic%Wilbert%%¡BIEN! Después de todo lo que me has dicho, ¡mira quién vuelve pidiendo MI ayuda! ¡Tienes un poco de nervios, ALIPH, el REPARADOR DE LA PLANTA DE ENERGÍA!
+%%yn%Los insectos por aquí son salvajes, ¿eh?%3%¿Hay algo de lo que te gustaría hablar?%4%% %%pic%Wilbert%%¿Qué cuentas desde el otro lado, ALIPH?
 //2
 %%pic%Wilbert%%¡AH! "¿Puedo encender el VENTILADOR por favor"! ¡AH! ¿Cómo me veo? ¿Alguna forma comun de encender el ventilador?
 //3
-%%pic%Wilbert%%Todos deben tratar con errores, ALIPH. No es mi problema.
+%%pic%Wilbert%%Todos deben tratar con los insectos, ALIPH. No es MI problema.
 //4
 %%im%% %%pic%Wilbert%%Bueno, si debes saberlo, hace poco me rechazaron en una compañía de circo para la que probé. Aparentemente, yo era "tan bueno que todos los demás estarían demasiado avergonzados de sí mismos por actuar conmigo
 %%im%% %%pic%Wilbert%%¡Los otros artistas estaban tan conmocionados y llorando tanto que realmente comenzaron a reír entre lágrimas! Criaturas extrañas, nosotros, los humanos. Qué mundo, ¿eh?
-%%pic%Wilbert%%De todos modos, después de ese alboroto, decidí viajar un poco por el desierto, estar en comunión con la naturaleza, hacer algunas reflexiones, ¿sabes? ¡Así que aquí estoy, ENCUENTRANDOME A MI MISMO!
+%%pic%Wilbert%%De todos modos, después de ese alboroto, decidí viajar un poco por el desierto, estar en comunión con la naturaleza, hacer algunas reflexiones, ¿sabes? ¡Así que aquí estoy, ENCONTRANDOME A MI MISMO!
 // 7
 !i %%pic%Wilbert%%¿Huh? ¿Yo? Wow, ¿quieres contarme un secreto? (Hmm ... por supuesto ... mi confianza natural debe emanar incluso a los observadores casuales ...) De acuerdo, ALIPH, puedes confiar en el viejo Wilbert.
 %%aliph%%Ok, eh, acercate un poco mas por favor.
