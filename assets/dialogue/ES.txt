@@ -2317,7 +2317,7 @@ SCENE kv_maps
 !i %%aliph%% %%speaker%none%%Quizás esta es la oficina de la que hablaba el Dr. Wodsnick. Déjame ver de qué se tratan esas notas y diagramas ... hmmm ...
 !i %%aliph%% %%speaker%none%%Oye ... parece que esto es todo!
 !i %%set_state%1%1%% %%item%19%1%% %%item%20%1%% %%item%21%1%% %%item%52%1%% %%item%51%1%% %%speaker%none%%Se recibieron tres mapas de las bombas y mapas del continente Karavold.
-%%aliph%% %%speaker%none%%Mejor díselo al Dr. Wodsnick.
+%%aliph%% %%speaker%none%%Mejor decírselo al Dr. Wodsnick.
 %%aliph%% %%speaker%none%%Esto parece una especie de oficina gubernamental. No parece haber nada útil aquí.
 ENDSCENE
 
@@ -2342,7 +2342,7 @@ SCENE find_bombs
 // 3, 5, 7
 %%aliph%% %%im%%Parece que estos son para usar contra un Geome en una llanura. La bolsa tiene una imagen de rocas.
 %%im%s3,find_bombs,10%% %%speaker%none%% %%item%23%1%%Recibido 'Bombas de tierra'.
-%%aliph%% %%im%%Parece que estas son para usar contra un Genoma dell sur. La bolsa tiene una imagen de un cielo estrellado iluminado por la noche.
+%%aliph%% %%im%%Parece que estas son para usar contra un Genoma del sur. La bolsa tiene una imagen de un cielo estrellado iluminado por la noche.
 %%im%s3,find_bombs,10%% %%speaker%none%% %%item%24%1%%Recibido 'bombas de aire'.
 %%aliph%% %%im%%Parece que estas son específicamente para usar contra un Geome del norte. La bolsa tiene una imagen de cascadas.
 %%im%s3,find_bombs,10%% %%speaker%none%% %%item%25%1%%Recibido 'bombas de mar'
@@ -2368,9 +2368,9 @@ ENDSCENE
 
 SCENE s3_boss_enter
 !i %%aliph%%Esta debería ser la cabeza del Geome ...
-%%aliph%%De acuerdo con las instrucciones en la bolsa, primero necesito instalar un dispositivo de detonación y algunas otras estructuras. Comenzará con eso.
+%%aliph%%De acuerdo con las instrucciones en la bolsa, primero necesito instalar un dispositivo de detonación y algunas otras estructuras. Comenzaré con eso.
 // fade
-%%aliph%%Bien, la configuración inicial está hecha. Ahora da la vuelta e instala las bombas, que funcionan de manera similar a las lentes en Whiteforge.
+%%aliph%%Bien, la configuración inicial está hecha. Ahora a instalar las bombas de manera similar a las lentes en Whiteforge.
 %%aliph%%De acuerdo, la misma rutina aquí como los otros Geomes. Tengo que configurar la infraestructura primero.
 ENDSCENE
 
@@ -2406,7 +2406,7 @@ SCENE debrief
 %%pic%Biggs_Radio%% %%im%%...
 %%pic%Biggs_Radio%% %%im%%Excelente, Aliph.
 %%speaker%none%% %%im%%{SOUND,radio_crr.wav}*crrr* {WAIT,1.5} ...
-!i %%aliph%%Seré breve, Alcalde Biggs. Hay un montón de retraso, y estoy realmente agotado. Volveré a informar una vez que el siguiente esté derrotado. Corto y cierro
+!i %%aliph%%Seré breve, Alcalde Biggs. Hay un montón de retraso, y estoy realmente agotado. Volveré a informar una vez que el siguiente Geome esté derrotado. Corto y cierro
 %%aliph%%Bueno, es hora de prepararse para pasar la noche.
 ENDSCENE
 
@@ -2638,9 +2638,9 @@ SCENE final
 %%speaker%g%0%% %%pic%Yara%% %%im%%Los humanos son como cualquier otra criatura: hacemos lo que tenemos que hacer para sobrevivir. Pero en nuestra sociedad, con nuestra tecnología ... algunas personas existen en un espacio donde las preocupaciones físicas inmediatas sobre cosas como la comida y el refugio desaparecen por completo. Y, sin embargo, siguen ejerciendo poder y ejerciendo poder. Construyen gigantescas torres flotantes como si fuera lo único que las mantiene con vida ... ¡aunque eso sigue estando cada vez más lejos de la verdad
 %%speaker%g%0%% %%pic%Yara%% %%im%%Y ese esfuerzo innecesario de poder es destructivo. Los actos individuales de violencia son una parte necesaria de la lucha por la supervivencia y el crecimiento en cualquier ecosistema ... pero a medida que los sistemas de poder se vuelven cada vez más desequilibrados, la violencia de los poderosos se vuelve menos justificable.
 %%aliph%% %%im%%¿Entonces esto es inevitable? No importa cuántos ciclos de civilización pasen, ¿la gente siempre terminará con estructuras de poder destructivas como una especie invasora? De la forma en que Humus lo describe, es como un mecanismo de relojería ... nunca tuvimos otra opción. Como si nada importara. Como si no hubiera lo correcto o lo incorrecto.
-%%speaker%g%1%% %%pic%Humus%% %%im%%Experimento el universo principalmente como sistemas que interectuan entrelazadoso. Pero recuerda esto, Aliph: Yo también tengo una perspectiva limitada frente a la gran complejidad de la vida.
+%%speaker%g%1%% %%pic%Humus%% %%im%%Experimento el universo principalmente como sistemas que interectuan entrelazados. Pero recuerda esto, Aliph: Yo también tengo una perspectiva limitada frente a la gran complejidad de la vida.
 %%speaker%g%0%% %%pic%Yara%% %%im%%No creo que alguna vez seamos capaces de descubrir lo que realmente controlamos o lo que las personas son capaces de hacer en un principio. Y si no sabemos ... bueno, entonces tiene sentido pelear, incluso si no hay posibilidades. O intentar pensar en otras opciones frente a lo que parece inevitable.
-%%aliph%% %%im%%Pero ahora ... es demasiado tarde, ¿verdad? Todo es tan desesperado. No solo nosotros ... no solo nuestras vidas. Sino Whiteforge. Todo. Quiero decir, tal vez si pudiéramos escribirlo todo para el próximo ciclo del mundo ... ¿pero cómo? ¿Y qué? ¡No hay suficiente tiempo! Me han hecho dar tantas vueltas en las últimas semanas que todo es borroso. Ya no sé lo que es importante ... ¡qué sentimientos de responsabilidad!
+%%aliph%% %%im%%Pero ahora ... es demasiado tarde, ¿verdad? Todo es tan desesperanzado. No solo nosotros ... no solo nuestras vidas. Sino Whiteforge. Todo. Quiero decir, tal vez si pudiéramos escribirlo todo para el próximo ciclo del mundo ... ¿pero cómo? ¿Y qué? ¡No hay suficiente tiempo! Me han hecho dar tantas vueltas en las últimas semanas que todo es borroso. Ya no sé lo que es importante ... ¡qué sentimientos de responsabilidad!
 %%speaker%g%0%% %%pic%Yara%% %%im%%Lo sé, Aliph. Esto es demasiado para asimilarlo. Pero tengo una idea ... Humus.
 %%speaker%g%1%% %%pic%Humus%% %%im%%¿Si?
 %%speaker%g%0%% %%pic%Yara%%Tengo la sensación de que no estás tan ligado a este tiempo y lugar como nosotros. Que podrías sobrevivir a la inundación, o viajar a lugares que nunca podríamos alcanzar. ¿Es eso cierto?
@@ -4395,7 +4395,7 @@ ENDMAP
 MAP pass
 
 SCENE golem_enter
-%%aliph%%Hmm, puedo ver el Geoma de la Tierra a lo lejos. Tendré que encontrar la forma de escalarlo.
+%%aliph%%Hmm, puedo ver el Geome de la Tierra a lo lejos. Tendré que encontrar la forma de escalarlo.
 %%aliph%%Ahí está ... el Geome del oceano ... de alguna manera flotando en Great Falls. ¿Cómo voy a alcanzarlo?
 ENDSCENE
 
@@ -4410,7 +4410,7 @@ SCENE jane_init
 !i %%pic%Jane%%Eh ... Me asustaste. ¿Cómo llegaste aquí? ¿Whiteforge volvió a abrir las vías del túnel?
 !i %%aliph%%N-no, no exactamente, soy el único aquí, en una misión especial de Whiteforge con respecto a esa enorme criatura Geome ...
 !i %%pic%Jane%%Ah, "Geome", ¿lo llamas? Increíble criatura. Claro que es un rompecabezas imaginar como clasificarlo ... ¡parece ser animal, vegetal y mineral a la vez! ¿Planean convertirlo en una planta de energía o algo así? Conociendo a Whiteforge, no eres un biólogo o un naturalista que viene a estudiarlo por el conocimiento y la comprensión ...
-!i %%aliph%%Soy un técnico deplantas de energía, pero estoy aquí para incapacitar al Geome. Junto con otros dos Geomes, atacó y casi destruyó Whiteforge. ¿Conoces alguna forma de subir a la sección principal de su cuerpo?
+!i %%aliph%%Soy un técnico de plantas de energía, pero estoy aquí para incapacitar al Geome. Junto con otros dos Geomes, atacó y casi destruyó Whiteforge. ¿Conoces alguna forma de subir a la sección principal de su cuerpo?
 !i %%pic%Jane%%Un ataque a Whiteforge, ¿eh? Hmm ... eso es una sorpresa. Lamento mucho que Whiteforge sienta la necesidad de luchar contra un ser tan raro y fascinante. Pero supongo que debes hacer lo que tienes que hacer.
 !i %%pic%Jane%%Bueno ... no te será fácil trepar por las empinadas patas delanteras del Geome, pero si pudieras evitarlo de alguna manera ...
 !i %%aliph%%Vi algunos géiseres cercanos que pueden impulsarme bastante alto ... pero no lo suficientemente alto, desafortunadamente.
@@ -4459,7 +4459,7 @@ SCENE picnic
 !i %%aliph%%Sí ... dijo que las expediciones fueron interrumpidas, cuando se enteraron de que los Geomes habían atacado a Karavold ... se enfocaron en la infraestructura interna y la defensa con la esperanza de poder defenderse contra Geomes si Whiteforge era atacado
 !i %%pic%Jane%%¿¿Qué?? Por qué ese pequeño ...
 !i %%pic%Jane%%¡Hmph! ... Hombres y sus grandes proyectos ... Sabía que algo estaba sucediendo que no nos estaban contado todo. Entonces esas fueron las "redistribuciones presupuestarias". Todo tiene más sentido ahora ... La destrucción de Karavold debe haber asustado a los jefes. Pero en lugar de tratar de aprender más, simplemente se retiraron a lo que mejor conocen ... torres y armas de fuego.
-!i %%pic%Jane%%Sabes, Aliph, pensé que estaban realmente interesados ​​en aprender sobre la naturaleza. ¡Pensé que todos estaban interesados! Todos somos parte de eso, ¡todos estamos interconectados con todo! Pero cuanto más trataba de convencer a la gente para que entendiera mi trabajo y su significado ... más me convencía de que la gente no lo veía como yo. Para muchas personas ... todo lo que no es una ciudad es "naturaleza". Algún tipo de ideal monolítico y exótico ... bueno para descansar, aterrador cuando funciona. Si me dejaran hablar, lo haría ... bueno ... no lo hicieron, así que no tiene sentido martillearte con esto ...
+!i %%pic%Jane%%Sabes, Aliph, pensé que estaban realmente interesados ​​en aprender sobre la naturaleza. ¡Pensé que todos estaban interesados! Todos somos parte de eso, ¡todos estamos interconectados con todo! Pero cuanto más trataba de convencer a la gente para que entendiera mi trabajo y su significado ... más me convencía de que la gente no lo veía como yo. Para muchas personas ... todo lo que no es una ciudad es "naturaleza". Algún tipo de ideal monolítico y exótico... buena para unas vacaciones, aterradora cuando se enfada. Si me hubieran dejado hacer lo quería, yo hubiera... bueno... no lo hicieron, así que no tiene sentido martillearte con esto...
 !i %%aliph%%¡De ningún modo! Quiero decir ... ¡ojalá hubieras estado en algunas de esas conversaciones anteriores! Tal vez podrías haber ayudado. Tal vez no estaríamos en esta situación ahora ...
 !i %%pic%Jane%%Ah, bueno ... aprecio el sentimiento, chico.
 !i %%pic%Jane%%Oh! Parece que es mejor ponerse en posición para saltar pronto. El Geome está doblando la curva. Espero que estes a salvo. Y, ah ... si tienes tiempo ... pasa antes de irte.
@@ -4484,7 +4484,7 @@ SCENE jane_post_golem
 !i %%aliph%%Por supuesto, Jane! Es una gran idea. Y gracias por toda tu ayuda.
 !i %%item%46%1%% %%speaker%none%%¡Aliph recibió la tarjeta de datos de Jane!
 LOOPSTART
-%%pic%Jane%%Bueno, Aliph, realmente espero que todo te salga bieni.
+%%pic%Jane%%Bueno, Aliph, realmente espero que todo te salga bien.
 ENDSCENE
 ENDMAP
 
@@ -4497,7 +4497,7 @@ SCENE aliph_alone
 ENDSCENE
 
 SCENE aliph_surface
-!i %%aliph%%¡Regresé a la superficie! Esa red ... esas tallas ... la persona ... todo se sintió como un sueño. ¡Pero fue real! Todavía puedo oler el aroma de las velas, fpegado en mi piel ...
+!i %%aliph%%¡Regresé a la superficie! Esa red ... esas tallas ... la persona ... todo se sintió como un sueño. ¡Pero fue real! Todavía puedo oler el aroma de las velas, pegado en mi piel ...
 %%aliph%%Pero ah ... volviendo a la tarea que nos ocupa. Alcanzar ese Geome ...
 ENDSCENE
 
@@ -4625,7 +4625,7 @@ SCENE sharon
 !i %%pic%Sharon%%Ehhh? ¡Esta! *empujar empujar* Esto no es una emoción, ¿eh? Este es un humano! Sharon no ha visto uno de estos ultimamente.
 !i %%aliph%%¿Qué quieres decir? ¡Por supuesto que soy un humano!
 !i %%pic%Sharon%%No hay muchos humanos alrededor de Great Falls. ¡Solo emociones! Emociones fuertes que toman su propia presencia y derivan sobre las corrientes de los confines del mundo. Ellos viajan norte. Del norte y del norte hasta que se acumulan aquí en Great Falls.
-!i %%pic%Sharon%%Sharon reúne las Emociones, y las lleva hasta Great Falls fuera de la vista. Si no lo hace, todos se espesarían en grupos podridos.
+!i %%pic%Sharon%%Sharon reúne las Emociones, y las lleva hasta Great Falls fuera de la vista. Si no lo hace, todos se coagularían en conjuntos podridos.
 !i %%aliph%%Espera, ¿dijiste que los traes hasta las cataratas? ¿Cómo? ¿Podrías llevarme de pasajero a mitad de camino de las Cataratas? ¡Necesito alcanzar la parte posterior de esa criatura Geome flotante!
 !i %%pic%Sharon%%Sharon tiene suficiente trabajo para mantenerla ocupada sin gorrones. Quizás el humano encuentre otra manera.
 !i %%aliph%%¡Por favor! ¡Es extremadamente importante! ¿Puedo pagarte de alguna manera?
@@ -4656,7 +4656,7 @@ SCENE npc
 %%pic%Falls_7%% %%name%Yara%%"¡No me digas qué habría hecho Cassidy! ¡Por supuesto que Cassidy habría salvado el mundo si hubiera podido!"
 %%pic%Falls_0%% %%name%Wilbert %% "Las estrellas no son la luna ... ¡y sin embargo! Son muy bellas y dignas por sí mismas ... ¡Sí! ¡Sí! ¡Creo que lo he abierto de par en par! Deseas inspirarme en mi ¡sueño de convertirme en un payaso a través de este memorándum críptico! "
 %%pic%Falls_1%% %%name%Lopez%%"Aliph me salvó la vida, Sr. Alcalde. ¡Ella es una verdadera heroína y una muy buena técnica!"
-%%pic%Falls_2%% %%name%Junior Gatekeeper%%"FRIO! ¿Puedo ser uncazador de monstruos junior? ¡Quiero redirigir las salidas de ventilación!"
+%%pic%Falls_2%% %%name%Junior Gatekeeper%%"¡Excelente! ¿Puedo ser un cazador de monstruos junior? ¡Quiero redirigir las salidas de ventilación!"
 %%pic%Falls_3%% %%name%Wesley%%"Esta biblioteca es muy importante para mí. Fue aquí, como un joven aterrorizado y desesperado, cuando encontré nuevas historias para albergar mi alma. Me mantuvieron a salvo y me permitieron pertenecer a un mundo que yo pensaba no tenía lugar para mí ".
 // 8
 %%speaker%none%%¡Aliph reunió una emoción!
